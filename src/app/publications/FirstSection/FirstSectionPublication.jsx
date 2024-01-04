@@ -21,6 +21,8 @@ export default function FirstSectionPublication({
   const [lightboxContent, setLightboxContent] = useState([]);
   const [lightboxOpen, setLightboxOpen] = useState(false);
 
+  const [textRecorrido, setRecoridoVirtual] = useState('Recorrido virtual')
+
   const { clientIsReady } = useClientIsReady();
   const onlyWidth = useWindowWidth();
 
@@ -79,6 +81,10 @@ export default function FirstSectionPublication({
   ];
 
   useEffect(() => {
+    if (onlyWidth < 480) setRecoridoVirtual('Video')
+  }, [clientIsReady])
+
+  useEffect(() => {
     if (mapUbication && mapUbication.length === 2) {
       const [latitude, longitude] = mapUbication.map(Number);
       setMapPosition({ lat: latitude, lng: longitude });
@@ -121,7 +127,7 @@ export default function FirstSectionPublication({
               onClick={() => handleOptionClick("Recorrido Virtual")}
               className="text-xl cursor-pointer select-none hover:text-[#FCA640] hover:underline hover:underline-offset-4 hover:font-bold text-gray-400"
             >
-              Recorrido Virtual
+              {textRecorrido}
             </p>
           )}
         </div>

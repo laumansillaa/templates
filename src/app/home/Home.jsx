@@ -11,7 +11,7 @@ export default function Home() {
     <section className="bg-cover bg-center">
       <header className={style.headerHome}>
         <div className="flex h-screen flex-col justify-center px-4 sm:px-0">
-          <div className="mb-6 text-center">
+          <div className={style.contTitlesHome}>
             <h1 className={style.titlePublication}>
               Tu propiedad la encontrás aquí
             </h1>
@@ -24,7 +24,7 @@ export default function Home() {
       </header>
       <main className={style.contSimilarProps}>
         <div className="flex h-[20vh] flex-col items-center justify-evenly text-center">
-          <h2 className="text-5xl font-bold">Propiedades destacadas</h2>
+          <h2 className={style.titleFeaturedProperty}>Propiedades destacadas</h2>
           <p>Conocé las propiedades en alquiler y venta disponibles.</p>
         </div>
         <div className={style.contScrollCards}>
@@ -35,7 +35,7 @@ export default function Home() {
         <div className="flex w-full justify-center">
           <Link
             href="/propertySearch?fromHome=true"
-            className=" flex h-10 w-60 items-center justify-center rounded-md bg-[#FCA640] text-sm text-white hover:scale-[1.01]"
+            className={style.buttonMoreProperties}
           >
             Ver más propiedades
           </Link>

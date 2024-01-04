@@ -19,6 +19,14 @@
     gap: 32px;
 }
 
+.contTitlesHome {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+    margin-bottom: 1.5rem;
+}
+
 .titlePublication {
     color: #FFF;
     text-align: center;
@@ -35,7 +43,7 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 145%; /* 34.8px */
+    line-height: 145%;
     letter-spacing: -0.12px;
 }
 
@@ -46,14 +54,51 @@
     justify-content: center;
 }
 
+.titleFeaturedProperty {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: -0.4px;
+}
+
+.buttonMoreProperties {
+    display: flex;
+    width: 215px;
+    height: 54px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCA640;
+    border-radius: 8px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
 @media only screen and (max-width: 360px) {
     .contScrollCards {
         display: flex;
         justify-content: flex-start;
-        overflow: scroll;
+        overflow-x: scroll;
+        overflow-y: hidden;
         padding: 4px;
         width: 100%;
         height: auto;
+    }
+
+    .contScrollCards::-webkit-scrollbar {
+        height: 4px;
+    }
+
+    .contScrollCards::-webkit-scrollbar-thumb {
+        background-color: #b3b0b0;
+        border-radius: 50px;
+    }
+
+    .contScrollCards::-webkit-scrollbar-track {
+        background-color: #f1f1f1;
     }
 
     .contSimilarProps {
@@ -68,6 +113,10 @@
     .subtitlePublication {
         font-weight: 500;
         font-size: 16px;
+    }
+
+    .titleFeaturedProperty {
+        line-height: 111%;
     }
 }
 
@@ -91,5 +140,9 @@
     .subtitlePublication {
         font-weight: 500;
         font-size: 18px;
+    }
+
+    .titleFeaturedProperty {
+        line-height: 111%;
     }
 }
