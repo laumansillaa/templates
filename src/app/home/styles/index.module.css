@@ -76,7 +76,7 @@
         display: flex;
         justify-content: flex-start;
         overflow: scroll;
-        padding: 0px 4px;
+        padding: 4px;
         width: 100%;
     }
 
