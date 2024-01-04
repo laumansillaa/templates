@@ -14,7 +14,7 @@ export default function ImageGallery({
   setLightboxOpen,
 }) {
   const [selectedIndex, setSelectedIndex] = useState(0);
-
+  console.log('SELECTED INDEX', selectedIndex);
   const openLightboxAt = (index) => {
     setSelectedIndex(index);
     setLightboxOpen(true);

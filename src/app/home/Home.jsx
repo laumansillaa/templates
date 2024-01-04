@@ -25,19 +25,31 @@ export default function Home() {
       </header>
       <main className={style.contSimilarProps}>
         <div className="flex h-[20vh] flex-col items-center justify-evenly text-center">
-          <h2 className={style.titleFeaturedProperty}>Propiedades destacadas</h2>
+          <h2 className={style.titleFeaturedProperty}>
+            Propiedades destacadas
+          </h2>
           <p>Conocé las propiedades en alquiler y venta disponibles.</p>
         </div>
-        <div className={style.contScrollCards}>
-          {
-            postState?.length ?
-            postState.slice(0, 6).map((property) => {
+        {!postState?.length ? (
+          <div
+            style={{
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              height: "250px",
+            }}
+          >
+            <Loader customHeight={"10vh"} />
+          </div>
+        ) : (
+          <div className={style.contScrollCards}>
+            {postState.slice(0, 6).map((property) => {
               return <CardProperty key={property.id} property={property} />;
-            })
-            : <Loader customHeight={'10vh'} />
-          }
-          {}
-        </div>
+            })}
+          </div>
+        )}
+
         <div className="flex w-full justify-center">
           <Link
             href="/propertySearch?fromHome=true"
