@@ -58,6 +58,7 @@
     height: 200px;
     background-color: #fff;
     border-radius: 0px 0px 8px 8px;
+    gap: 12px;
 }
 
 .contAuxInfoCard {
