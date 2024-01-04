@@ -43,7 +43,7 @@ export default function CardProperty({ property }) {
       </div>
       <div className={style.contInfoCard}>
         <div className={style.contAuxInfoCard}>
-          <div className="w-full h-32 space-y-1 flex flex-col justify-center items-start px-3 gap-1">
+          <div className={style.contDataCard}>
             <div className="relative space-x-1 flex gap-x-2.5">
               <p
                 className={`tracking-tighter whitespace-nowrap text-2xl font-bold ${
