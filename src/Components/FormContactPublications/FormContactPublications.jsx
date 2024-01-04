@@ -107,7 +107,7 @@ export default function FormContactPublications() {
               <label className="font-bold text-sm">Teléfono</label>
               <input
                 type="tel"
-                className="px-3 outline-none text-sm rounded-md border border-[#E0DEF7] h-11 placeholder:text-sm"
+                className={style.inputPhone}
                 placeholder="Escribí tu teléfono"
                 {...register("telefono", {
                   required: "Este campo es requerido",

@@ -15,6 +15,16 @@
 
 .inputForm {
     display: flex;
+    width: 119px;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid #e0def7;
+    height: 45px;
+    padding: 0px 6px !important;
+}
+
+.inputPhone {
+    display: flex;
     width: -webkit-fill-available;
     outline: none;
     border-radius: 8px;
