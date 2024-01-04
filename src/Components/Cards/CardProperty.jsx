@@ -46,8 +46,10 @@ export default function CardProperty({ property }) {
           <div className={style.contDataCard}>
             <div className="relative space-x-1 flex gap-x-2.5">
               <p
-                className={`tracking-tighter whitespace-nowrap text-2xl font-bold ${
-                  property?.type === "venta" ? "text-black" : "text-[#FCA640]"
+                className={`${style.amount} ${
+                  property?.type === "venta"
+                    ? style.saleAmount
+                    : style.rentAmount
                 }`}
               >
                 {property?.type === "venta"

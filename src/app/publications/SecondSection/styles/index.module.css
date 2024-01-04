@@ -8,6 +8,7 @@
 .contBoxGallery {
     display: flex;
     flex-direction: column;
+    height: 440px;
     gap: 20px;
 }
 

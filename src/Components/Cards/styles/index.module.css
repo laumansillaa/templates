@@ -72,6 +72,23 @@
     gap: 8px;
 }
 
+.amount {
+    color: #1A1A1A;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -1px;
+}
+
+.saleAmount {
+    color: #1A1A1A;
+}
+
+.rentAmount {
+    color: #FCA640;
+}
+
 .titleCard {
     color: #1A1A1A;
     font-size: 24px;
