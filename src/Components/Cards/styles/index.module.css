@@ -47,10 +47,13 @@
 
 .venta {
     background-color: #1A1A1A;
+    color: #fff;
 }
 
 .alquiler {
     background-color: #FCA640;
+    color: #fff;
+
 }
 
 .contInfoCard {

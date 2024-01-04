@@ -124,7 +124,8 @@
     .contScrollCards {
         display: flex;
         justify-content: flex-start;
-        overflow: scroll;
+        overflow-x: scroll;
+        overflow-y: hidden;
         padding: 4px;
         width: 100%;
     }

@@ -4,6 +4,7 @@ import CardProperty from "@/Components/Cards/CardProperty";
 import NewsletterForm from "@/Components/NewsletterForm/NewsletterForm";
 import Search from "@/Components/Search/Search";
 import style from "./styles/index.module.css";
+import Loader from "@/Components/Loader/Loader";
 export default function Home() {
   const postState = useSelector((state) => state.theme.list);
 
@@ -28,9 +29,14 @@ export default function Home() {
           <p>Conocé las propiedades en alquiler y venta disponibles.</p>
         </div>
         <div className={style.contScrollCards}>
-          {postState.slice(0, 6).map((property) => {
-            return <CardProperty key={property.id} property={property} />;
-          })}
+          {
+            postState?.length ?
+            postState.slice(0, 6).map((property) => {
+              return <CardProperty key={property.id} property={property} />;
+            })
+            : <Loader customHeight={'10vh'} />
+          }
+          {}
         </div>
         <div className="flex w-full justify-center">
           <Link
