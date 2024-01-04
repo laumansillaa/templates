@@ -12,3 +12,22 @@
     gap: 16px !important;
     padding-top: 0.75rem !important;
 }
+
+.inputForm {
+    display: flex;
+    width: -webkit-fill-available;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid #e0def7;
+    height: 45px;
+    padding: 0px 6px !important;
+}
+
+.inputForm::placeholder {
+    color: var(--Main-Color-Black, #2F395C);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 21px */
+    opacity: 0.5;
+}

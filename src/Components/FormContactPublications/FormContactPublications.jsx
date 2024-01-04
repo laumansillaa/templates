@@ -89,7 +89,7 @@ export default function FormContactPublications() {
                 <div className="flex flex-col gap-y-1 w-3/6" key={index}>
                   <label className="font-bold text-sm">{input.label}</label>
                   <input
-                    className="px-3 outline-none w-full text-sm h-11 rounded-md border border-[#E0DEF7] placeholder:text-sm"
+                    className={style.inputForm}
                     placeholder={input.placeholder}
                     {...register(input.name)}
                   />
