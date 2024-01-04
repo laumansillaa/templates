@@ -24,7 +24,7 @@ export default function NavBar({display }) {
           {NAV_LINKS.map((link) => (
             <div
               key={link.key}
-              className="regular-16 text-navbar-text flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold gap-x-3"
+              className={style.link}
             >
               <Image
                 src={link.image}

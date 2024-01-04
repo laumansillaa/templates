@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import { modifyValueAmount } from "@/utils/functions";
 import { actionSetPropertyId } from "@/Redux/slices/theme/theme.slice";
 // import { actionSetPropertyId } from "../Redux/Actions/actionProperty";
-import style from './styles/index.module.css'
+import style from "./styles/index.module.css";
 export default function CardProperty({ property }) {
   const router = useRouter();
   const [amount, setAmount] = useState("");
@@ -22,16 +22,11 @@ export default function CardProperty({ property }) {
   };
 
   return (
-    <div
-      onClick={handleClickToPublication}
-      className={style.contGeneralCard}
-    >
+    <div onClick={handleClickToPublication} className={style.contGeneralCard}>
       <div className={style.contImageCard}>
         <div
-          className={`absolute z-10 top-6 left-0 w-[30%] h-8 flex justify-center items-center ${
-            property?.type === "venta"
-              ? "bg-[#1A1A1A] opacity-90"
-              : "bg-[#FCA640]"
+          className={`${style.cardItem} ${
+            property?.type === "venta" ? style.venta : style.alquiler
           }`}
         >
           <p className="text-white text-sm leading-5 px-2 m-0 tracking-wider">

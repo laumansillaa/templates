@@ -32,6 +32,27 @@
     object-fit: cover;
 }
 
+.cardItem {
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 15px;
+    width: 30%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.venta {
+    background-color: #1A1A1A;
+}
+
+.alquiler {
+    background-color: #FCA640;
+}
+
 @media only screen and (max-width: 360px) {
     .contGeneralCard {
         width: 300px;
