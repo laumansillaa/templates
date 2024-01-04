@@ -13,6 +13,19 @@
     padding-top: 0.75rem !important;
 }
 
+.contItemsContact {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.itemContact {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
 .inputForm {
     display: flex;
     width: 124px;
@@ -35,7 +48,7 @@
 
 .inputTextarea {
     display: flex;
-    width: 124px;
+    width: -webkit-fill-available;
     outline: none;
     border-radius: 8px;
     border: 1px solid #e0def7;

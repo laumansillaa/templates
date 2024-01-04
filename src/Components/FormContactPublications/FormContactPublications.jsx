@@ -70,9 +70,9 @@ export default function FormContactPublications() {
           <p className="text-xs text-gray-500">Partner oficial</p>
         </div>
       </div>
-      <div className="flex flex-col">
+      <div className={style.contItemsContact}>
         {DATA_PUBLICATION_INMO.map((data) => (
-          <div className="flex gap-x-2 pt-3" key={data.key}>
+          <div className={style.itemContact} key={data.key}>
             <Image src={data.image} alt={data.key} width={20} height={20} />
             <p className="text-sm">{data.text}</p>
           </div>
