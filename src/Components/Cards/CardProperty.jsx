@@ -41,8 +41,8 @@ export default function CardProperty({ property }) {
           className={style.mainImage}
         />
       </div>
-      <div className="w-full h-1/2 p-1 bg-white border-t-2 border-purple-100 rounded-b-3xl">
-        <div className="h-45 relative flex flex-col justify-center space-y-1">
+      <div className={style.contInfoCard}>
+        <div className={style.contAuxInfoCard}>
           <div className="w-full h-32 space-y-1 flex flex-col justify-center items-start px-3 gap-1">
             <div className="relative space-x-1 flex gap-x-2.5">
               <p
