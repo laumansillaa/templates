@@ -60,10 +60,10 @@ export default function CardProperty({ property }) {
                 </div>
               )}
             </div>
-            <div className="text-black text-2xl leading-9 tracking-tighter w-full overflow-hidden truncate whitespace-nowrap">
+            <div className={style.titleCard}>
               {property?.propertyDetails.title}
             </div>
-            <div className="w-full flex-shrink-0 text-black opacity-50 text-xl font-medium leading-6 overflow-hidden h-5 truncate whitespace-nowrap">
+            <div className={style.directionCard}>
               {"Calle " +
                 property?.propertyDetails.street +
                 ", " +
