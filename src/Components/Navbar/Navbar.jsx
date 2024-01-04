@@ -1,7 +1,7 @@
 import { NAV_LINKS } from "@/Constants";
 import Image from "next/image";
 import Link from "next/link";
-
+import style from './styles/index.module.css'
 export default function NavBar({display }) {
 
   let customStyle = {
@@ -9,8 +9,8 @@ export default function NavBar({display }) {
   }
 
   return (
-    <nav className="relative z-30 py-5 border-b-2 border-gray-200" style={customStyle}>
-      <div className="max-container flexBetween padding-container">
+    <nav className={style.contNavbar} style={customStyle}>
+      <div className={style.contAux}>
         <Link href="/">
           <Image
             src="/Navbar/logoNavbar.svg"
@@ -20,7 +20,7 @@ export default function NavBar({display }) {
             className="w-auto h-auto"
           />
         </Link>
-        <ul className="hidden h-full gap-12 ss:flex">
+        <ul className={style.contItems}>
           {NAV_LINKS.map((link) => (
             <div
               key={link.key}

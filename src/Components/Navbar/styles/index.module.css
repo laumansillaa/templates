@@ -1,0 +1,30 @@
+.contNavbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 30;
+    background-color: #ffffff;
+    height: 96px;
+}
+
+.contAux {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.contItems {
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    gap: 24px;
+
+}
+
+@media only screen and (max-width: 766px) {
+    .contItems {
+        display: none;
+    }
+}
