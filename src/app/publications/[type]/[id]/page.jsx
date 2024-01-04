@@ -6,14 +6,14 @@ import FirstSectionPublication from "../../FirstSection/FirstSectionPublication"
 import SecondSectionPublication from "../../SecondSection/SecondSectionPublication";
 import CarrouselProperty from "@/Components/CarrouselProperty/CarrouselProperty";
 import { useEffect } from "react";
-import { useParams, useSearchParams } from "next/navigation";
+import { useParams, usePathname, useSearchParams } from "next/navigation";
 import { getPostId } from "@/Redux/slices/theme/theme.actions";
 import style from "./styles/index.module.css";
-export default function page() {
+export default function Page () {
   const { id } = useParams();
   const url = useSearchParams();
   const dispatch = useDispatch();
-
+  const path = usePathname()
   const propertyId = useSelector((state) => state.theme.post);
 
   const { propertyDetails } = propertyId || {};

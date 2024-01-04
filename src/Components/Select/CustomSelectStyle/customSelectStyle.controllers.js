@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export const customSelectStyleControllers = (
+export const useCustomSelectStyleControllers = (
   selectButtonRef,
   selectOptionsRef,
   onChange,

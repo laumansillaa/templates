@@ -1,6 +1,6 @@
 'use client'
 import { useRef } from "react";
-import { customSelectStyleControllers } from "./customSelectStyle.controllers";
+import { useCustomSelectStyleControllers } from "./customSelectStyle.controllers";
 import { useHandlePositionBottom } from "./useHandlePositionBottom";
 import iconArrow from "../assets/inputArrow.svg";
 import { useCloseOnOutsideClickAndEscape } from "@/hook";
@@ -27,7 +27,7 @@ export const CustomSelectStyle = ({
     handleKeyDown,
     focusedIndex,
     handleCloseToggleDropdown,
-  } = customSelectStyleControllers(
+  } = useCustomSelectStyleControllers(
     selectButtonRef,
     selectOptionsRef,
     onChange,
