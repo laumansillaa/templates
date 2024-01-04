@@ -1,0 +1,16 @@
+.imgGallery {
+    border-radius: 8px;
+    object-fit: cover;
+    cursor: pointer;
+    width: 100%;
+}
+
+.singleImage {
+    height: auto;
+    border-radius: 8px;
+}
+
+.dualImage {
+    height: 13rem;
+    border-radius: 8px;
+}

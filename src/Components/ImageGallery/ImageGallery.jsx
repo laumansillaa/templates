@@ -6,7 +6,7 @@ import "yet-another-react-lightbox/styles.css";
 import Videos from "yet-another-react-lightbox/plugins/video";
 import Image from "next/image";
 import { useEffect } from "react";
-
+import style from './styles/index.module.css'
 export default function ImageGallery({
   images,
   lightboxImages,
@@ -45,8 +45,8 @@ export default function ImageGallery({
           width={images.length === 1 ? 770 : 300}
           height={images.length === 1 ? 600 : 200}
           onClick={() => handleImageClick(index)}
-          className={`rounded-lg max-w-full object-cover cursor-pointer ${
-            isSingleImage ? "h-auto" : "h-52"
+          className={`${style.ImageGallery} ${
+            isSingleImage ? style.singleImage : style.dualImage
           }`}
         />
       ))}
