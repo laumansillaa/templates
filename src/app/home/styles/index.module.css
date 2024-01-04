@@ -19,6 +19,26 @@
     gap: 32px;
 }
 
+.titlePublication {
+    color: #FFF;
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: -0.64px;
+}
+
+.subtitlePublication {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 145%; /* 34.8px */
+    letter-spacing: -0.12px;
+}
+
 .contSimilarProps {
     display: flex;
     flex-direction: column;
@@ -40,6 +60,15 @@
         padding: 64px 12px 0px 12px;
         gap: 24px;
     }
+
+    .titlePublication {
+        font-size: 38px;
+    }
+
+    .subtitlePublication {
+        font-weight: 500;
+        font-size: 16px;
+    }
 }
 
 @media only screen and (min-width: 361px) and (max-width: 480px) {
@@ -53,5 +82,14 @@
 
     .contSimilarProps {
         padding: 64px 24px 0px 24px;
+    }
+
+    .titlePublication {
+        font-size: 38px;
+    }
+
+    .subtitlePublication {
+        font-weight: 500;
+        font-size: 18px;
     }
 }

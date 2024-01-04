@@ -9,7 +9,7 @@ import { useEffect } from "react";
 import { useParams, usePathname, useSearchParams } from "next/navigation";
 import { getPostId } from "@/Redux/slices/theme/theme.actions";
 import style from "./styles/index.module.css";
-export default function Page () {
+export default function Page() {
   const { id } = useParams();
   const url = useSearchParams();
   const dispatch = useDispatch();

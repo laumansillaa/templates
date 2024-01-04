@@ -1,3 +1,10 @@
+.contPagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
 .buttonPagination {
     display: flex;
     justify-content: center;

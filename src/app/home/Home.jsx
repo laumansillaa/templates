@@ -12,10 +12,10 @@ export default function Home() {
       <header className={style.headerHome}>
         <div className="flex h-screen flex-col justify-center px-4 sm:px-0">
           <div className="mb-6 text-center">
-            <h1 className="mb-4 text-4xl font-bold text-home-title-h1 se:text-2xl xs:text-5xl md:text-6xl">
+            <h1 className={style.titlePublication}>
               Tu propiedad la encontrás aquí
             </h1>
-            <p className="text-xl text-home-text-p se:text-sm ss:text-lg md:text-2xl">
+            <p className={style.subtitlePublication}>
               Descubrí las propiedades destacadas de nuestro portal
             </p>
           </div>

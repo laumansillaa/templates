@@ -27,7 +27,7 @@ const Pagination = ({ postsPerPage, allPosts, onPageChange, currentPage }) => {
   };
 
   return (
-    <div className="flex justify-center items-center space-x-4">
+    <div className={style.contPagination}>
       {/* Botón anterior */}
       <button
         onClick={handlePrevious}
