@@ -15,7 +15,7 @@
 
 .inputForm {
     display: flex;
-    width: 119px;
+    width: 124px;
     outline: none;
     border-radius: 8px;
     border: 1px solid #e0def7;
@@ -31,6 +31,17 @@
     border: 1px solid #e0def7;
     height: 45px;
     padding: 0px 6px !important;
+}
+
+.inputTextarea {
+    display: flex;
+    width: 124px;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid #e0def7;
+    height: 98px;
+    padding: 0px 6px !important;
+    resize: none;
 }
 
 .inputForm::placeholder {

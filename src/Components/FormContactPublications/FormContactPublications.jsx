@@ -128,7 +128,7 @@ export default function FormContactPublications() {
             <div className="flex flex-col gap-y-1">
               <label className="font-bold text-sm">Consulta</label>
               <textarea
-                className="p-2 outline-none resize-none w-full text-sm placeholder:text-sm h-28 rounded-md border border-[#E0DEF7]"
+                className={style.inputTextarea}
                 placeholder="Dejanos un mensaje"
                 {...register("consulta", {
                   required: "Este campo es requerido",
