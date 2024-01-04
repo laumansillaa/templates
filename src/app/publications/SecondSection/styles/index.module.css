@@ -1,0 +1,23 @@
+.contGeneralSecondSection {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 28%;
+}
+
+.contBoxGallery {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .contGeneralSecondSection {
+        width: -webkit-fill-available;
+        margin-top: 24px;
+    }
+
+    .contBoxGallery {
+        display: none;
+    }
+}

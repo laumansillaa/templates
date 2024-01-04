@@ -1,0 +1,67 @@
+.contListPropertyTypes::-webkit-scrollbar {
+    width: 8.5px;
+    background-color: #f0effb;
+}
+
+.contListPropertyTypes::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+.contListPropertyTypes::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #FCA640;
+}
+
+.containerPropertyTypes {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 65px;
+    left: -13px;
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0.5rem;
+    background-color: #ffffff;
+    border-left: 1px solid #e0def7;
+    border-bottom: 1px solid #e0def7;
+    border-right: 1px solid #e0def7;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 8px 8px;
+    z-index: 50;
+}
+
+.contScrollPropertyTypes {
+    height: 191px;
+    gap: 3.01px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contListPropertyTypes {
+    overflow-y: scroll;
+    max-height: 190px;
+    width: 190px;
+    gap: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+@media only screen and (max-width: 480px) {
+    .containerPropertyTypes {
+        width: 100%;
+        left: 2px;
+        top: 45px;
+        border-radius: 0px 0px 8px 8px;
+    }
+    .contListPropertyTypes {
+        padding: 0px 4px;
+        width: -webkit-fill-available;
+    }
+}

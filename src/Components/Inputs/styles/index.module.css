@@ -1,0 +1,217 @@
+/* index.module.css */
+.conInput {
+    width: -webkit-fill-available;
+    height: auto;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    align-self: center;
+    padding: 0px 0px 0px 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.aux {
+    display: flex;
+    flex-direction: column;
+    width: -webkit-fill-available;
+}
+
+.input {
+    width: -webkit-fill-available;
+    height: var(--input-height);
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 11px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    align-items: center;
+    color: #000929;
+    opacity: 1;
+    border-radius: 8px;
+    border: 1px solid #e0def7;
+    outline: none;
+}
+
+.input:focus {
+    border: 2px solid #7065F0;
+}
+
+.valueInvalid {
+    border: 1px solid #F06565;
+}
+
+.input::placeholder {
+    opacity: 0.5;
+}
+
+.input::-webkit-inner-spin-button {
+    display: none;
+}
+
+.input:disabled {
+    background: "#E0DEF7";
+}
+
+.inputTextArea {
+    width: -webkit-fill-available;
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 11px 15px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    align-items: center;
+    color: #000929;
+    opacity: 1;
+    border-radius: 8px;
+    /*background-color: ${(props) => theme.colors.primaryWhite}; */
+    border: 1px solid #e0def7;
+    resize: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+    word-break: break-word;
+}
+
+.inputTextArea:focus {
+    outline-color: #7065F0;
+    outline-width: 1px;
+}
+
+.inputTextArea::placeholder {
+    opacity: 0.5;
+
+}
+
+.contText {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.textCounter {
+    color: rgba(0, 9, 41, 1);
+    text-align: right;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin: 0;
+    width: auto;
+    display: flex;
+}
+
+.aux {
+    display: flex;
+    flex-direction: column;
+    width: -webkit-fill-available;
+}
+
+.contItemSelect {
+    display: flex;
+    width: -webkit-fill-available;
+}
+
+.contCurrency {
+    height: 50px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: stretch;
+    align-items: center;
+    padding: 0px 0px 0px 15px;
+    border-width: 1px 0px 1px 1px;
+    border-radius: 8px 0px 0px 8px;
+    border-style: solid;
+    border-color: #E0DEF7;
+    /* background-color: ${(props) => theme.colors.primaryWhite}; */
+}
+
+.currency {
+    padding: 0 3px 0 3px;
+    color: #000828;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    white-space: nowrap;
+    margin-right: 13px;
+}
+
+.containerLabel {
+    width: -webkit-fill-available;
+    height: 24px;
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    padding: 7.5px 18.5px;
+    border-radius: 8px;
+    border: 1px solid #E0DEF7;
+    background-color: #ffffff;
+    cursor: pointer;
+
+    /* .wrapperCheck {
+        display: flex;
+        align-items: center;
+
+        img {
+            margin-left: 10px;
+            cursor: pointer;
+        }
+    } */
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    align-self: center;
+}
+
+.contTextInputFile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+}
+
+.textInputfile {
+    height: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: center;
+    align-items: center;
+    color: #000828;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.textInputRadio {
+    color: #100a55;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+@media only screen and (max-width: 479px) {
+    .currency {
+        padding: 0 1px 0 1px;
+    }
+}
+
+@media only screen and (max-width: 766px) and (min-width: 480px) {
+    .currency {
+        padding: 0 1px 0 1px;
+    }
+}

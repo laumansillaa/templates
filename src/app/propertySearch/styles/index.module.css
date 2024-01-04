@@ -1,0 +1,32 @@
+.contGridCards {
+    width: 60%;
+    height: auto;
+    margin: 0;
+    margin-bottom: 53.8px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contSearchBar {
+    display: flex;
+    width: 60%;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 766px) {
+    .contSearchBar {
+        padding: 0px 24px;
+        height: 30vh;
+        width: -webkit-fill-available;
+    }
+
+    .contGridCards {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+}

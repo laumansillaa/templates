@@ -1,0 +1,1460 @@
+[
+    {
+        "id": "45bba580-5426-11ee-9ef5-1b0a254419f3",
+        "owner": "e328e850-50ac-11ee-bcb9-797efb09f202",
+        "property": "60bf9a60-71ab-11ee-b536-3dd0c156838a",
+        "type": "venta",
+        "publicationType": "sinExclusividad",
+        "currency": "USD",
+        "amount": "7500",
+        "expenseTypes": "Libre de gastos",
+        "expenseCurrency": "USD",
+        "expenseAmount": "3000",
+        "finance": true,
+        "disponibilidad": [
+            "15/9/2023"
+        ],
+        "periodo": null,
+        "garantia": null,
+        "authorization": null,
+        "isRealter": false,
+        "status": "Pendiente",
+        "cbu": null,
+        "visits": 16,
+        "createdAt": "2023-09-16T00:16:25.048Z",
+        "updatedAt": "2023-10-23T13:52:17.176Z",
+        "deletedAt": null,
+        "ContractId": null,
+        "propertyDetails": {
+            "id": "60bf9a60-71ab-11ee-b536-3dd0c156838a",
+            "owner": "e328e850-50ac-11ee-bcb9-797efb09f202",
+            "title": "sadasdas",
+            "description": "dasdasda",
+            "typeProp": 26,
+            "street": "22",
+            "intersectionOne": "22",
+            "intersectionTwo": "",
+            "pais": "Argentina",
+            "province": "Buenos Aires - GBA Sur",
+            "state": "La Plata",
+            "city": "La Plata",
+            "barrio": "",
+            "postalCode": null,
+            "number": "22",
+            "piso": "",
+            "depto": "",
+            "mapUbication": [
+                "-34.92608789167682",
+                "-57.95837402343751"
+            ],
+            "video": [
+                "{\"name\":\"Recorrido virtual para propiedades bienes raíces _ Holii.mp4\",\"url\":\"https://res.cloudinary.com/dqllk3gmq/video/upload/v1694823163/FlexyPublication/bbjaaqibn0xunh7nmzhe.mp4\"}"
+            ],
+            "plane": [
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1694823166/FlexyPublication/zulujj4icj09ttgayyax.webp"
+            ],
+            "deed": null,
+            "mainImage": "https://res.cloudinary.com/dqllk3gmq/image/upload/v1694823155/FlexyPublication/ufa2b0efjpwrliarlchd.webp",
+            "multimedia": [
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1694823158/FlexyPublication/w8jvaxcnoriokbik8qnw.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1694823158/FlexyPublication/zd14ei5wdehehqcax9n1.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1694823159/FlexyPublication/j59huinvapc2dvhqiy58.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1694823160/FlexyPublication/zx8rcyd4cpnc8q52cszt.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1694823161/FlexyPublication/ashyztws9te3wkyovjk6.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1694823161/FlexyPublication/ozqrs0cpdiitzcuobtsi.webp"
+            ],
+            "propertyStatus": "Muy bueno",
+            "ambient": "0",
+            "bedroom": "0",
+            "bathroom": "0",
+            "beds": null,
+            "travellersCapacity": null,
+            "surface": "0",
+            "mCovered": "0",
+            "antiquity": "0",
+            "generalAttributes": null,
+            "typesAmbients": null,
+            "services": null,
+            "facilities": null,
+            "securityItems": null,
+            "quickDescription": null,
+            "disponibilidad": null,
+            "hostingType": null,
+            "documents": null,
+            "createdAt": "2023-09-16T00:16:25.048Z",
+            "updatedAt": "2023-10-23T13:52:17.159Z",
+            "deletedAt": null,
+            "typePropDetails": {
+                "name": "Lote/Terreno",
+                "type": "commercial"
+            },
+            "propertyOwner": {
+                "id": "e328e850-50ac-11ee-bcb9-797efb09f202",
+                "name": "Enzo",
+                "lastname": "Vazquez",
+                "email": "enzo.vazquez.2022@gmail.com",
+                "phone": "2213554594",
+                "dni": 42435787,
+                "street": "22",
+                "number": "22",
+                "intersectionOne": "22",
+                "intersectionTwo": "22",
+                "pais": "Argentina",
+                "provincia": "Buenos Aires - GBA Sur",
+                "partido_localidad": "La Plata",
+                "city": "La Plata",
+                "dni_frente": [
+                    "https://res.cloudinary.com/dqllk3gmq/raw/upload/v1694823366/Documentos/p5ahhnvz93bgzpmsxvg0.webp",
+                    null
+                ],
+                "dni_dorso": [
+                    "https://res.cloudinary.com/dqllk3gmq/raw/upload/v1694823368/Documentos/tkf7at2gqd28ldrv97w7.webp",
+                    null
+                ],
+                "cbu": null
+            }
+        }
+    },
+    {
+        "id": "afd60d5e-36b5-11ee-be56-0242ac120002",
+        "owner": "22b249d0-2a1a-11ee-8626-05f4a8eff458",
+        "property": "60ca21b0-71ab-11ee-b536-3dd0c156838a",
+        "type": "alquiler",
+        "publicationType": null,
+        "currency": "ARS",
+        "amount": "120000",
+        "expenseTypes": null,
+        "expenseCurrency": "ARS",
+        "expenseAmount": "17000",
+        "finance": null,
+        "disponibilidad": [
+            "12/10/2023"
+        ],
+        "periodo": "36 Meses",
+        "garantia": [
+            "Trust Fund"
+        ],
+        "authorization": null,
+        "isRealter": false,
+        "status": "Pendiente",
+        "cbu": null,
+        "visits": 0,
+        "createdAt": "2023-09-17T15:14:03.215Z",
+        "updatedAt": "2023-10-23T13:52:17.230Z",
+        "deletedAt": null,
+        "ContractId": null,
+        "propertyDetails": {
+            "id": "60ca21b0-71ab-11ee-b536-3dd0c156838a",
+            "owner": "d7c6e2c4-36b6-11ee-be56-0242ac120002",
+            "title": "Departamento de Erik",
+            "description": "Este departamento fue publicado por Erik, que no tiene nada que ver con el departamento",
+            "typeProp": 2,
+            "street": "10",
+            "intersectionOne": "42",
+            "intersectionTwo": "43",
+            "pais": "Argentina",
+            "province": "Buenos Aires",
+            "state": "La Plata",
+            "city": "La Plata",
+            "barrio": "La Plata",
+            "postalCode": "1900",
+            "number": "513",
+            "piso": "2",
+            "depto": "D",
+            "mapUbication": [
+                "-34.91931322352734",
+                "-57.95454382896424"
+            ],
+            "video": [
+                "{\"name\":\"cu94gc04hx4595afbffi.mp4\",\"url\":\"https://res.cloudinary.com/dqllk3gmq/video/upload/v1689770434/FlexyPublication/e5cxmn5p6njtfkhtev2o.mp4\"}"
+            ],
+            "plane": [
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1689770441/FlexyPublication/u0ontxjaidmqcpmewkuf.jpg"
+            ],
+            "deed": null,
+            "mainImage": "https://res.cloudinary.com/dqllk3gmq/image/upload/v1689770387/FlexyPublication/axvisqz26in8jdz6fpiu.webp",
+            "multimedia": [
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1689770412/FlexyPublication/lqe9xjn3j62rknbg7agd.jpg",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1689770413/FlexyPublication/sitkod9kdfrev4t7whzf.jpg",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1689770414/FlexyPublication/f6qscvyjwf7srhno9zlp.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1689770414/FlexyPublication/ajld8vejhrdlkvgkihtg.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1689770415/FlexyPublication/axzzxmuz5fstsdtdxokp.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1689770416/FlexyPublication/f59bhkkogxa1fskb9r9s.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1689770399/FlexyPublication/tdbf1ttpr9hswv71lrwi.webp"
+            ],
+            "propertyStatus": "Bueno",
+            "ambient": "4",
+            "bedroom": "1",
+            "bathroom": "1",
+            "beds": null,
+            "travellersCapacity": null,
+            "surface": "50",
+            "mCovered": null,
+            "antiquity": "35",
+            "generalAttributes": [
+                "Mascotas"
+            ],
+            "typesAmbients": [
+                "Cocina separada",
+                "Living comedor",
+                "Dormitorio en suite"
+            ],
+            "services": [
+                "Calefacción",
+                "Electricidad",
+                "Teléfono",
+                "Seguridad"
+            ],
+            "facilities": null,
+            "securityItems": null,
+            "quickDescription": null,
+            "disponibilidad": null,
+            "hostingType": null,
+            "documents": null,
+            "createdAt": "2023-09-17T15:14:03.215Z",
+            "updatedAt": "2023-10-23T13:52:17.227Z",
+            "deletedAt": null,
+            "typePropDetails": {
+                "name": "Departamento",
+                "type": "housing"
+            },
+            "propertyOwner": {
+                "id": "d7c6e2c4-36b6-11ee-be56-0242ac120002",
+                "name": "Erik",
+                "lastname": "Fille",
+                "email": "erikfilledev@gmail.com",
+                "phone": "2211712223",
+                "dni": 11822335,
+                "street": "10",
+                "number": "513",
+                "intersectionOne": "42",
+                "intersectionTwo": "43",
+                "pais": "Argentina",
+                "provincia": "Buenos Aires",
+                "partido_localidad": "La Plata",
+                "city": "La Plata",
+                "dni_frente": null,
+                "dni_dorso": null,
+                "cbu": "1234567890123456789016"
+            }
+        }
+    },
+    {
+        "id": "e23c0de0-53fa-11ee-9ef5-1b0a254419f3",
+        "owner": "ad57a8d0-53c5-11ee-9ef5-1b0a254419f3",
+        "property": "60c4a370-71ab-11ee-b536-3dd0c156838a",
+        "type": "venta",
+        "publicationType": "sinExclusividad",
+        "currency": "USD",
+        "amount": "7500",
+        "expenseTypes": "Gastos compartidos",
+        "expenseCurrency": "USD",
+        "expenseAmount": "0",
+        "finance": true,
+        "disponibilidad": [
+            "15/9/2023"
+        ],
+        "periodo": null,
+        "garantia": null,
+        "authorization": null,
+        "isRealter": false,
+        "status": "Active",
+        "cbu": null,
+        "visits": 114,
+        "createdAt": "2023-09-15T19:05:49.759Z",
+        "updatedAt": "2023-10-23T13:52:17.194Z",
+        "deletedAt": null,
+        "ContractId": null,
+        "propertyDetails": {
+            "id": "60c4a370-71ab-11ee-b536-3dd0c156838a",
+            "owner": "ad57a8d0-53c5-11ee-9ef5-1b0a254419f3",
+            "title": "Lotes en Los Hornos - Venta de terrenos",
+            "description": "CONOCÉ LA ESCONDIDA. \n\nEste desarrollo se encuentra ubicado en la localidad de Los Hornos, a unas pocas cuadras de su centro y a 20 minutos de la ciudad de La Plata. Cuenta con una rápida conexión al casco urbano por su cercanía con las avenidas 161 y 66.\n\nEl barrio está compuesto por 352 lotes, cuyas medidas van desde los 252 a los 616 m2. \n\nLos servicios con los que cuenta son:\n\nElectricidad. Esto incluye corriente para el hogar y luminaria externa.\nCerco perimetral que rodea todo el barrio.\nPortón de ingreso para los residentes.\nCalles mejoradas con tosca y calcáreo.\n\nEl loteo destaca por su tranquilidad y belleza natural a pesar de estar a muy pocos minutos de la ciudad.\n\nFINANCIAMOS DE FORMA PERSONALIZADA Y FLEXIBLE. ACCEDE A NUESTRAS FORMAS DE PAGO PRESENTANDO ÚNICAMENTE TU DNI.\nADEMÁS, CONTAMOS CON PLAN D: NUESTRA HERRAMIENTA FINANCIERA CON LA CUAL VOS DECIDÍS CUÁNDO Y CUÁNTO ABONAR.\n\nYA SE VENDIÓ MÁS DEL 80% DE LA PRIMERA ETAPA.\n\nDejanos tu consulta o efectuá una reserva hoy.\n",
+            "typeProp": 26,
+            "street": "84",
+            "intersectionOne": "161",
+            "intersectionTwo": "167",
+            "pais": "Argentina",
+            "province": "Buenos Aires",
+            "state": "La Plata",
+            "city": "La Plata",
+            "barrio": "LOS HORNOS",
+            "postalCode": null,
+            "number": "-",
+            "piso": "",
+            "depto": "",
+            "mapUbication": [
+                "-34.996756925649954",
+                "-57.97777175903321"
+            ],
+            "video": [
+                "{\"name\":\"Vídeo sin título ‐ Hecho con Clipchamp.mp4\",\"url\":\"https://res.cloudinary.com/dqllk3gmq/video/upload/v1694804440/FlexyPublication/yl8t36vppupcex3zklge.mp4\"}",
+                "{\"name\":\"Vídeo sin título ‐ Hecho con Clipchamp (1).mp4\",\"url\":\"https://res.cloudinary.com/dqllk3gmq/video/upload/v1694804510/FlexyPublication/smaatqrllvif3dkk94au.mp4\"}"
+            ],
+            "plane": [
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1694804526/FlexyPublication/wvim1lrdugft7qnae8wt.jpg"
+            ],
+            "deed": null,
+            "mainImage": "https://res.cloudinary.com/dqllk3gmq/image/upload/v1694804703/FlexyPublication/bkzlumj0bfaeesnuxxiw.jpg",
+            "multimedia": [
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1694804682/FlexyPublication/unx9fxxylpjoxqyqstef.jpg",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1694804597/FlexyPublication/p0jrnhv7vxgieerzyyad.jpg",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1694804614/FlexyPublication/art1wdcvgqikqitqychn.jpg",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1694804551/FlexyPublication/j3qwdk8b6jbrone8arwi.jpg",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1694804562/FlexyPublication/f2ezowvcmawdcnfyzkso.jpg"
+            ],
+            "propertyStatus": "A estrenar",
+            "ambient": "0",
+            "bedroom": "0",
+            "bathroom": "0",
+            "beds": null,
+            "travellersCapacity": null,
+            "surface": "252",
+            "mCovered": "0",
+            "antiquity": "1",
+            "generalAttributes": [
+                "Mascotas"
+            ],
+            "typesAmbients": [
+                "Jardín"
+            ],
+            "services": [
+                "Electricidad"
+            ],
+            "facilities": null,
+            "securityItems": null,
+            "quickDescription": null,
+            "disponibilidad": null,
+            "hostingType": null,
+            "documents": null,
+            "createdAt": "2023-09-15T19:05:49.759Z",
+            "updatedAt": "2023-10-23T13:52:17.191Z",
+            "deletedAt": null,
+            "typePropDetails": {
+                "name": "Lote/Terreno",
+                "type": "commercial"
+            },
+            "propertyOwner": {
+                "id": "ad57a8d0-53c5-11ee-9ef5-1b0a254419f3",
+                "name": "Desarrollos",
+                "lastname": "Delsud",
+                "email": "marketingdesarrollosdelsud@gmail.com",
+                "phone": "2215079256",
+                "dni": 36387982,
+                "street": "37",
+                "number": "125",
+                "intersectionOne": "117",
+                "intersectionTwo": "118",
+                "pais": "Argentina",
+                "provincia": "Buenos Aires",
+                "partido_localidad": "La Plata",
+                "city": "La Plata",
+                "dni_frente": [
+                    "https://res.cloudinary.com/dqllk3gmq/raw/upload/v1695065359/Documentos/why3zjkiptpsdhtuxan1.jpg",
+                    null
+                ],
+                "dni_dorso": [
+                    "https://res.cloudinary.com/dqllk3gmq/raw/upload/v1695065367/Documentos/gapirsanqaoiohizkysi.jpg",
+                    null
+                ],
+                "cbu": null
+            }
+        }
+    },
+    {
+        "id": "372c8f60-5c6a-11ee-9566-ef7fa262560d",
+        "owner": "f170d850-5c69-11ee-9566-ef7fa262560d",
+        "property": "60cb3320-71ab-11ee-b536-3dd0c156838a",
+        "type": "alquiler",
+        "publicationType": null,
+        "currency": "ARS",
+        "amount": "120000",
+        "expenseTypes": null,
+        "expenseCurrency": "ARS",
+        "expenseAmount": "14750",
+        "finance": null,
+        "disponibilidad": [
+            "29/9/2023"
+        ],
+        "periodo": "24 Meses",
+        "garantia": [
+            "Demostracion de ingresos"
+        ],
+        "authorization": null,
+        "isRealter": false,
+        "status": "Pendiente",
+        "cbu": null,
+        "visits": 0,
+        "createdAt": "2023-09-26T12:42:55.702Z",
+        "updatedAt": "2023-10-23T13:52:17.236Z",
+        "deletedAt": null,
+        "ContractId": null,
+        "propertyDetails": {
+            "id": "60cb3320-71ab-11ee-b536-3dd0c156838a",
+            "owner": "f170d850-5c69-11ee-9566-ef7fa262560d",
+            "title": "casita del umpilumpi",
+            "description": "desfasd",
+            "typeProp": 3,
+            "street": "45 ",
+            "intersectionOne": "12",
+            "intersectionTwo": "13",
+            "pais": "Argentina",
+            "province": "Buenos Aires - GBA Sur",
+            "state": "Presidente Perón",
+            "city": "Presidente Perón",
+            "barrio": "GUERNICA",
+            "postalCode": "12",
+            "number": "12",
+            "piso": "",
+            "depto": "",
+            "mapUbication": [
+                "-34.93738179349233",
+                "-58.4084701538086"
+            ],
+            "video": [
+                "{\"name\":\"X2Download.app-Un niño llora en su primer día de clases en medio de una entrevista para televisión-(480p).mp4\",\"url\":\"https://res.cloudinary.com/dqllk3gmq/video/upload/v1695732152/FlexyPublication/xbtr1rhwne7vuhnrh6hn.mp4\"}"
+            ],
+            "plane": [
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695732153/FlexyPublication/p37kvojvcwjicyqmzp4q.webp"
+            ],
+            "deed": null,
+            "mainImage": "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695732144/FlexyPublication/hfug5xznybvhciiunf4g.webp",
+            "multimedia": [
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695732146/FlexyPublication/mxu7pldairiopgltvhho.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695732146/FlexyPublication/r6ffo5pasxfb1ayoptuc.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695732147/FlexyPublication/p81go4kuwjp9aofpvnoq.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695732148/FlexyPublication/t1zuyb6gwnsqoofmsdci.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695732150/FlexyPublication/rrjietzlxxb5uhwdrcim.jpg",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695732152/FlexyPublication/qsxnt7brycizwmkowwuo.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695732153/FlexyPublication/b0zjglrh58revggfbgy2.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695732154/FlexyPublication/siindoj2arklvhqkfk16.webp"
+            ],
+            "propertyStatus": "Bueno",
+            "ambient": "2",
+            "bedroom": "2",
+            "bathroom": "2",
+            "beds": null,
+            "travellersCapacity": null,
+            "surface": "2",
+            "mCovered": null,
+            "antiquity": "2",
+            "generalAttributes": [
+                "Hall",
+                "Cochera cubierta",
+                "Pileta",
+                "Gimnasio"
+            ],
+            "typesAmbients": [
+                "Balcón",
+                "Toilette"
+            ],
+            "services": [
+                "Internet",
+                "Gas Natural",
+                "Seguridad"
+            ],
+            "facilities": null,
+            "securityItems": null,
+            "quickDescription": null,
+            "disponibilidad": null,
+            "hostingType": null,
+            "documents": [
+                "{\"name\":\"1809262671.jpg\",\"url\":\"https://res.cloudinary.com/dqllk3gmq/image/upload/v1695732171/FlexyPublication/nyzpgy3srsbbi31crsrg.jpg\"}"
+            ],
+            "createdAt": "2023-09-26T12:42:55.702Z",
+            "updatedAt": "2023-10-23T13:52:17.234Z",
+            "deletedAt": null,
+            "typePropDetails": {
+                "name": "Casa",
+                "type": "housing"
+            },
+            "propertyOwner": {
+                "id": "f170d850-5c69-11ee-9566-ef7fa262560d",
+                "name": "umpa",
+                "lastname": "lumpa",
+                "email": "umpalumpa@email.com",
+                "phone": null,
+                "dni": null,
+                "street": null,
+                "number": null,
+                "intersectionOne": null,
+                "intersectionTwo": null,
+                "pais": null,
+                "provincia": null,
+                "partido_localidad": null,
+                "city": null,
+                "dni_frente": null,
+                "dni_dorso": null,
+                "cbu": null
+            }
+        }
+    },
+    {
+        "id": "c3bc9c20-5659-11ee-9566-ef7fa262560d",
+        "owner": "ad57a8d0-53c5-11ee-9ef5-1b0a254419f3",
+        "property": "60c62a10-71ab-11ee-b536-3dd0c156838a",
+        "type": "venta",
+        "publicationType": "sinExclusividad",
+        "currency": "USD",
+        "amount": "50000",
+        "expenseTypes": "Gastos compartidos",
+        "expenseCurrency": "USD",
+        "expenseAmount": "0",
+        "finance": true,
+        "disponibilidad": [
+            "15/9/2023"
+        ],
+        "periodo": null,
+        "garantia": null,
+        "authorization": [
+            "https://res.cloudinary.com/dqllk3gmq/raw/upload/v1695065352/Documentos/lrjxmcis8y2nntbjr40q.jpg",
+            null
+        ],
+        "isRealter": false,
+        "status": "Active",
+        "cbu": null,
+        "visits": 43,
+        "createdAt": "2023-09-18T19:30:03.106Z",
+        "updatedAt": "2023-10-23T13:52:17.204Z",
+        "deletedAt": null,
+        "ContractId": null,
+        "propertyDetails": {
+            "id": "60c62a10-71ab-11ee-b536-3dd0c156838a",
+            "owner": "ad57a8d0-53c5-11ee-9ef5-1b0a254419f3",
+            "title": "TERRENO EN VENTA - Ideal empresas de logística",
+            "description": "TERRENO EN ZONA INDUSTRIAL MIXTA\n\nApto galpón \nIdeal para empresas de logística\n\nTerreno con escritura propia subdivido por geodesia ubicado sobre la R.P nº36 entre 520 y 526\n\nServicios: Luz\nMedidas: 30x66  1800m2 \n",
+            "typeProp": 26,
+            "street": "Ruta 36",
+            "intersectionOne": "520",
+            "intersectionTwo": "526",
+            "pais": "Argentina",
+            "province": "Buenos Aires",
+            "state": "La Plata",
+            "city": "La Plata",
+            "barrio": "ARTURO SEGUI",
+            "postalCode": null,
+            "number": "-",
+            "piso": "",
+            "depto": "",
+            "mapUbication": [
+                "-34.96924360668227",
+                "-58.0687952041626"
+            ],
+            "video": [
+                "{\"name\":\"fotos.mp4\",\"url\":\"https://res.cloudinary.com/dqllk3gmq/video/upload/v1695065311/FlexyPublication/bcrtscmujtbcfjxfhekr.mp4\"}"
+            ],
+            "plane": [
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695064587/FlexyPublication/y2efww7nkadrndabrejh.jpg",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1694808783/FlexyPublication/bvp78xjitxqacwkszimi.jpg"
+            ],
+            "deed": [
+                "https://res.cloudinary.com/dqllk3gmq/raw/upload/v1695065349/Documentos/x7lfw55ng2pmw76ptd7o.jpg",
+                null
+            ],
+            "mainImage": "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695064566/FlexyPublication/iit81wikvg4adsiy7755.jpg",
+            "multimedia": [
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695064577/FlexyPublication/fhqxxsjntqnmtsqi10tw.jpg",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695064578/FlexyPublication/u5fl7omye2xlsftoa3fa.jpg",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695064579/FlexyPublication/hqbhbyp9u9o5xzmvcpg3.jpg",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695064581/FlexyPublication/yohxymgqxzb5pdna3lah.jpg",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695064582/FlexyPublication/llfgtazxhhmkijcgetsw.jpg",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695064583/FlexyPublication/zcjo3fuhhcrr3quhuqnr.jpg",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695064585/FlexyPublication/juonf33kpvtvcbzd2dpr.jpg"
+            ],
+            "propertyStatus": "A estrenar",
+            "ambient": "0",
+            "bedroom": "0",
+            "bathroom": "0",
+            "beds": null,
+            "travellersCapacity": null,
+            "surface": "1800",
+            "mCovered": "0",
+            "antiquity": "1",
+            "generalAttributes": [
+                "Cochera descub"
+            ],
+            "typesAmbients": [
+                "Patio"
+            ],
+            "services": [
+                "Electricidad"
+            ],
+            "facilities": null,
+            "securityItems": null,
+            "quickDescription": null,
+            "disponibilidad": null,
+            "hostingType": null,
+            "documents": null,
+            "createdAt": "2023-09-18T19:30:03.106Z",
+            "updatedAt": "2023-10-23T13:52:17.201Z",
+            "deletedAt": null,
+            "typePropDetails": {
+                "name": "Lote/Terreno",
+                "type": "commercial"
+            },
+            "propertyOwner": {
+                "id": "ad57a8d0-53c5-11ee-9ef5-1b0a254419f3",
+                "name": "Desarrollos",
+                "lastname": "Delsud",
+                "email": "marketingdesarrollosdelsud@gmail.com",
+                "phone": "2215079256",
+                "dni": 36387982,
+                "street": "37",
+                "number": "125",
+                "intersectionOne": "117",
+                "intersectionTwo": "118",
+                "pais": "Argentina",
+                "provincia": "Buenos Aires",
+                "partido_localidad": "La Plata",
+                "city": "La Plata",
+                "dni_frente": [
+                    "https://res.cloudinary.com/dqllk3gmq/raw/upload/v1695065359/Documentos/why3zjkiptpsdhtuxan1.jpg",
+                    null
+                ],
+                "dni_dorso": [
+                    "https://res.cloudinary.com/dqllk3gmq/raw/upload/v1695065367/Documentos/gapirsanqaoiohizkysi.jpg",
+                    null
+                ],
+                "cbu": null
+            }
+        }
+    },
+    {
+        "id": "bd0928ae-ca74-49e5-ae30-70217de4a06e",
+        "owner": "a34f2edd-0da9-4c5f-8319-a113b1afcada",
+        "property": "60c84cf0-71ab-11ee-b536-3dd0c156838a",
+        "type": "alquiler",
+        "publicationType": null,
+        "currency": "ARS",
+        "amount": "180000",
+        "expenseTypes": null,
+        "expenseCurrency": "ARS",
+        "expenseAmount": "15000",
+        "finance": null,
+        "disponibilidad": [
+            "16/11/2023"
+        ],
+        "periodo": "36 Meses",
+        "garantia": [
+            "Trust Fund"
+        ],
+        "authorization": null,
+        "isRealter": false,
+        "status": "Pendiente",
+        "cbu": null,
+        "visits": 0,
+        "createdAt": "2023-09-17T15:14:03.215Z",
+        "updatedAt": "2023-10-23T13:52:17.218Z",
+        "deletedAt": null,
+        "ContractId": null,
+        "propertyDetails": {
+            "id": "60c84cf0-71ab-11ee-b536-3dd0c156838a",
+            "owner": "7adf85bb-9b98-47d6-9bbc-4d4a263d5e42",
+            "title": "Casa publicada por Juan Perez",
+            "description": "Esta es una casa en alquiler publicada por el agente Juan Perez, por lo que los datos del property owner se guardaran de manera diferente que si el mismo propietario hubiera hecho la publicación",
+            "typeProp": 3,
+            "street": "1",
+            "intersectionOne": "32",
+            "intersectionTwo": "33",
+            "pais": "Argentina",
+            "province": "Buenos Aires",
+            "state": "La Plata",
+            "city": "La Plata",
+            "barrio": "La Plata",
+            "postalCode": "1900",
+            "number": "767",
+            "piso": null,
+            "depto": null,
+            "mapUbication": [
+                "-34.91101456515061",
+                "-57.96609342098237"
+            ],
+            "video": [
+                "{\"name\":\"cu94gc04hx4595afbffi.mp4\",\"url\":\"https://res.cloudinary.com/dqllk3gmq/video/upload/v1689769750/FlexyPublication/hn0dmdfvcihdausfeouu.mp4\"}"
+            ],
+            "plane": [
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1689769757/FlexyPublication/l4tzlr1e6032uy3zpsmi.png"
+            ],
+            "deed": null,
+            "mainImage": "https://res.cloudinary.com/dqllk3gmq/image/upload/v1689769698/FlexyPublication/ae7jhoydr3bdddywq63l.jpg",
+            "multimedia": [
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1689769704/FlexyPublication/bdtr1xayrqqll9wb0gh5.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1689769705/FlexyPublication/rvdwt4xhb5lf1xugjslh.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1689769706/FlexyPublication/s7lrgxmllaz4vahnz5d5.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1689769707/FlexyPublication/bomuntsukgufsjletcae.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1689769708/FlexyPublication/bl35daj0jcq7nkqxn6kh.webp"
+            ],
+            "propertyStatus": "Excelente",
+            "ambient": "5",
+            "bedroom": "3",
+            "bathroom": "2",
+            "beds": null,
+            "travellersCapacity": null,
+            "surface": "230",
+            "mCovered": null,
+            "antiquity": "6",
+            "generalAttributes": [
+                "Mascotas",
+                "Escritorio",
+                "Hall",
+                "Cochera cubierta",
+                "Cochera descub",
+                "Pileta",
+                "Cancha de fútbol",
+                "Estufa a gas",
+                "Radiador",
+                "Aire acondicionado",
+                "Gimnasio",
+                "Solarium",
+                "Cancha de tenis",
+                "Hidromasaje",
+                "Bañera",
+                "SUM",
+                "Alfombra",
+                "Porcelanato",
+                "B. desayunadora",
+                "Vestidor",
+                "Pisos flotantes"
+            ],
+            "typesAmbients": [
+                "Cocina integrada",
+                "Cocina separada",
+                "Living comedor",
+                "Balcón",
+                "Lavadero separado",
+                "Toilette",
+                "Sótano",
+                "Terraza",
+                "Patio",
+                "Jardín",
+                "Dormitorio en suite",
+                "Altillo"
+            ],
+            "services": [
+                "Agua Corriente",
+                "Calefacción",
+                "Electricidad",
+                "Gas Natural",
+                "Internet",
+                "Seguridad",
+                "Vídeo Cable",
+                "Teléfono"
+            ],
+            "facilities": null,
+            "securityItems": null,
+            "quickDescription": null,
+            "disponibilidad": null,
+            "hostingType": null,
+            "documents": null,
+            "createdAt": "2023-09-17T15:14:03.215Z",
+            "updatedAt": "2023-10-23T13:52:17.215Z",
+            "deletedAt": null,
+            "typePropDetails": {
+                "name": "Casa",
+                "type": "housing"
+            },
+            "propertyOwner": {
+                "id": "7adf85bb-9b98-47d6-9bbc-4d4a263d5e42",
+                "name": "Ana",
+                "lastname": "García",
+                "email": "erikfilleaudeau@gmail.com",
+                "phone": "2211112223",
+                "dni": 11222335,
+                "street": "3",
+                "number": "112",
+                "intersectionOne": "32",
+                "intersectionTwo": "33",
+                "pais": "Argentina",
+                "provincia": "Buenos Aires",
+                "partido_localidad": "La Plata",
+                "city": "La Plata",
+                "dni_frente": [
+                    "https://res.cloudinary.com/dqllk3gmq/raw/upload/v1688149879/Documentos/w3pfuqlkjcfcettovqtw.png"
+                ],
+                "dni_dorso": [
+                    "https://res.cloudinary.com/dqllk3gmq/raw/upload/v1688149881/Documentos/bt10wipuemp6cfkqdzg6.png"
+                ],
+                "cbu": "1234567890123456789014"
+            }
+        }
+    },
+    {
+        "id": "d076d670-5ba3-11ee-9566-ef7fa262560d",
+        "owner": "606e5530-5232-11ee-9ef5-1b0a254419f3",
+        "property": "60c71470-71ab-11ee-b536-3dd0c156838a",
+        "type": "venta",
+        "publicationType": "sinExclusividad",
+        "currency": "USD",
+        "amount": "270000",
+        "expenseTypes": "Libre de gastos",
+        "expenseCurrency": "USD",
+        "expenseAmount": "0",
+        "finance": true,
+        "disponibilidad": [
+            "25/9/2023"
+        ],
+        "periodo": null,
+        "garantia": null,
+        "authorization": [
+            "https://res.cloudinary.com/dqllk3gmq/raw/upload/v1695646952/Documentos/cvrqsdbi9she4dskcdfn.webp",
+            null
+        ],
+        "isRealter": false,
+        "status": "Active",
+        "cbu": null,
+        "visits": 25,
+        "createdAt": "2023-09-25T13:02:43.032Z",
+        "updatedAt": "2023-10-23T13:52:17.211Z",
+        "deletedAt": null,
+        "ContractId": null,
+        "propertyDetails": {
+            "id": "60c71470-71ab-11ee-b536-3dd0c156838a",
+            "owner": "606e5530-5232-11ee-9ef5-1b0a254419f3",
+            "title": "VENDO Casa 2 plantas en Villa del Plata, Ensenada.",
+            "description": "Casa de 3 dormitorios con entrada de autos ubicada en Villa del Plata, Ensenada.\nDesarrollada en 2 plantas: en planta baja posee amplio salón comedor,baño, living con hogar a leña, cocina separada con bajo mesada y alacena , comedor diario y lavadero integrado.\nPlanta alta: 3 dormitorios, 2 baños, el principal en suite con vestidor.\nCalefacción por tiro balanceado, hogar y split.\nEntrada de auto descubierta para 2 vehículos.\nParrilla.\n-Su superficie cubierta es de 260 m2\n-Lote regular de 15 x 36\nAcepta departamento de 2 dormitorios con cochera en el Casco de la Ciudad de La Plata.",
+            "typeProp": 3,
+            "street": "44",
+            "intersectionOne": "21 bis",
+            "intersectionTwo": "",
+            "pais": "Argentina",
+            "province": "Buenos Aires - GBA Sur",
+            "state": "Ensenada",
+            "city": "Ensenada",
+            "barrio": "PUNTA LARA",
+            "postalCode": null,
+            "number": "1353",
+            "piso": "",
+            "depto": "",
+            "mapUbication": [
+                "-34.833084242994126",
+                "-57.96432852745057"
+            ],
+            "video": [
+                "{\"name\":\"flexy_spot_baxar (1).mp4\",\"url\":\"https://res.cloudinary.com/dqllk3gmq/video/upload/v1695646878/FlexyPublication/zpujmc90kwcylupesluu.mp4\"}"
+            ],
+            "plane": null,
+            "deed": [
+                "https://res.cloudinary.com/dqllk3gmq/raw/upload/v1695646950/Documentos/luccguf2wort7xaxg9yf.webp",
+                null
+            ],
+            "mainImage": "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646849/FlexyPublication/hkw4mxaoeq3z8pfdekqt.webp",
+            "multimedia": [
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646860/FlexyPublication/pxjz9p1rveum7s8xscba.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646861/FlexyPublication/lankozbprjd8kwtkbqcc.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646862/FlexyPublication/ss1cnjru7bim0nrj7j48.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646863/FlexyPublication/o2amllnzspizcgfn7yso.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646864/FlexyPublication/c9ynmbtfsxapnpdadjss.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646866/FlexyPublication/jz6tfktexddf2ottkrfs.jpg",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646868/FlexyPublication/d7ajaihcuwbgirqstahy.jpg",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646870/FlexyPublication/p3j2lkaysyoratglmauy.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646871/FlexyPublication/d87htunko8hpposexu4p.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646871/FlexyPublication/gfce8sxz3xxtjak3xwxm.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646872/FlexyPublication/mtt4a1agqjxnudiwd2jq.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646873/FlexyPublication/ilqofogmn3ziuf9izpoo.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646874/FlexyPublication/qe6skiuk1n5tpzeyfu01.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646876/FlexyPublication/dyrf3uiakru7qdimcd1f.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646877/FlexyPublication/ia4fsst9nlhzsczd1nj4.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646878/FlexyPublication/s9yquqst62kftxttpsis.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646880/FlexyPublication/cxqbrjnu5vl4fyy12gl8.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646881/FlexyPublication/drwicm6ll6m8w40u9cst.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646882/FlexyPublication/o1ywt0rck8d5cabza6ci.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646884/FlexyPublication/dn84szec8cpf0rpq0gsf.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646887/FlexyPublication/pj2zbxp0d6ntltjb3ot0.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646888/FlexyPublication/zlmy7kp66qrwrzljmhlw.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646889/FlexyPublication/rtciau5pjnp7oodasjmx.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646891/FlexyPublication/jdbmqzo8bmebsylzh0m1.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646892/FlexyPublication/ipcnvemswllikmdkmidp.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646894/FlexyPublication/vq3edq29gyaijhyqzpoe.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646895/FlexyPublication/nf0bnwqxah2afk12e4mc.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646899/FlexyPublication/kmgbeqzhxffox0slq2lj.jpg",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646901/FlexyPublication/vee9vyskfuuvg463twxb.jpg",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646904/FlexyPublication/u7o5bmbv84cff6o5xbtj.jpg",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695646907/FlexyPublication/khqddwdltb2ibtdqnywr.jpg"
+            ],
+            "propertyStatus": "Bueno",
+            "ambient": "6",
+            "bedroom": "3",
+            "bathroom": "3",
+            "beds": null,
+            "travellersCapacity": null,
+            "surface": "525",
+            "mCovered": "260",
+            "antiquity": "10",
+            "generalAttributes": [
+                "Mascotas",
+                "Escritorio",
+                "Hall",
+                "Cochera descub",
+                "Aire acond.",
+                "Estufa a gas",
+                "Hidromasaje",
+                "Bañera",
+                "Alfombra",
+                "Porcelanato",
+                "Vestidor",
+                "B. desayunadora"
+            ],
+            "typesAmbients": [
+                "Cocina integrada",
+                "Living comedor",
+                "Balcón",
+                "Toilette",
+                "Dormitorio suite",
+                "Jardín",
+                "Patio"
+            ],
+            "services": [
+                "Agua Corriente",
+                "Calefacción",
+                "Electricidad",
+                "Gas Natural",
+                "Internet",
+                "Vídeo Cable"
+            ],
+            "facilities": null,
+            "securityItems": null,
+            "quickDescription": null,
+            "disponibilidad": null,
+            "hostingType": null,
+            "documents": null,
+            "createdAt": "2023-09-25T13:02:43.032Z",
+            "updatedAt": "2023-10-23T13:52:17.208Z",
+            "deletedAt": null,
+            "typePropDetails": {
+                "name": "Casa",
+                "type": "housing"
+            },
+            "propertyOwner": {
+                "id": "606e5530-5232-11ee-9ef5-1b0a254419f3",
+                "name": "Lautaro",
+                "lastname": "Reynoso",
+                "email": "lautaroreynoso25@gmail.com",
+                "phone": "2215052327",
+                "dni": 38146944,
+                "street": "60",
+                "number": "1124",
+                "intersectionOne": "17",
+                "intersectionTwo": "",
+                "pais": "Argentina",
+                "provincia": "Buenos Aires - GBA Sur",
+                "partido_localidad": "La Plata",
+                "city": "La Plata",
+                "dni_frente": [
+                    "https://res.cloudinary.com/dqllk3gmq/raw/upload/v1695646956/Documentos/tiobm4ey13ghireivg3m.webp",
+                    null
+                ],
+                "dni_dorso": [
+                    "https://res.cloudinary.com/dqllk3gmq/raw/upload/v1695646958/Documentos/i092oohovucyg8azvxje.webp",
+                    null
+                ],
+                "cbu": null
+            }
+        }
+    },
+    {
+        "id": "ae842ed7-a984-46c1-8e69-92822d49ae42",
+        "owner": "22b249d0-2a1a-11ee-8626-05f4a8eff458",
+        "property": "60c95e60-71ab-11ee-b536-3dd0c156838a",
+        "type": "alquiler",
+        "publicationType": null,
+        "currency": "ARS",
+        "amount": "70000",
+        "expenseTypes": null,
+        "expenseCurrency": "ARS",
+        "expenseAmount": "5000",
+        "finance": null,
+        "disponibilidad": [
+            "12/10/2023"
+        ],
+        "periodo": "36 Meses",
+        "garantia": [
+            "Trust Fund"
+        ],
+        "authorization": null,
+        "isRealter": false,
+        "status": "Pendiente",
+        "cbu": null,
+        "visits": 0,
+        "createdAt": "2023-09-17T15:14:03.215Z",
+        "updatedAt": "2023-10-23T13:52:17.224Z",
+        "deletedAt": null,
+        "ContractId": null,
+        "propertyDetails": {
+            "id": "60c95e60-71ab-11ee-b536-3dd0c156838a",
+            "owner": "7adf85bb-9b98-47d6-9bbc-4d4a263d5e42",
+            "title": "Departamento de Ana García",
+            "description": "Este departamento fue publicado por Ana García, que es la propietaria del departamento",
+            "typeProp": 2,
+            "street": "7",
+            "intersectionOne": "42",
+            "intersectionTwo": "43",
+            "pais": "Argentina",
+            "province": "Buenos Aires",
+            "state": "La Plata",
+            "city": "La Plata",
+            "barrio": "La Plata",
+            "postalCode": "1900",
+            "number": "565",
+            "piso": "7",
+            "depto": "C",
+            "mapUbication": [
+                "-34.91931322352734",
+                "-57.95454382896424"
+            ],
+            "video": [
+                "{\"name\":\"cu94gc04hx4595afbffi.mp4\",\"url\":\"https://res.cloudinary.com/dqllk3gmq/video/upload/v1689770434/FlexyPublication/e5cxmn5p6njtfkhtev2o.mp4\"}"
+            ],
+            "plane": [
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1689770441/FlexyPublication/u0ontxjaidmqcpmewkuf.jpg"
+            ],
+            "deed": null,
+            "mainImage": "https://res.cloudinary.com/dqllk3gmq/image/upload/v1689770387/FlexyPublication/axvisqz26in8jdz6fpiu.webp",
+            "multimedia": [
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1689770412/FlexyPublication/lqe9xjn3j62rknbg7agd.jpg",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1689770413/FlexyPublication/sitkod9kdfrev4t7whzf.jpg",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1689770414/FlexyPublication/f6qscvyjwf7srhno9zlp.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1689770414/FlexyPublication/ajld8vejhrdlkvgkihtg.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1689770415/FlexyPublication/axzzxmuz5fstsdtdxokp.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1689770416/FlexyPublication/f59bhkkogxa1fskb9r9s.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1689770399/FlexyPublication/tdbf1ttpr9hswv71lrwi.webp"
+            ],
+            "propertyStatus": "Excelente",
+            "ambient": "2",
+            "bedroom": "1",
+            "bathroom": "1",
+            "beds": null,
+            "travellersCapacity": null,
+            "surface": "80",
+            "mCovered": null,
+            "antiquity": "4",
+            "generalAttributes": [
+                "Mascotas",
+                "Cochera cubierta",
+                "Cochera descub",
+                "Gimnasio"
+            ],
+            "typesAmbients": [
+                "Toilette",
+                "Cocina separada",
+                "Living comedor",
+                "Dormitorio en suite"
+            ],
+            "services": [
+                "Calefacción",
+                "Electricidad",
+                "Teléfono",
+                "Seguridad"
+            ],
+            "facilities": null,
+            "securityItems": null,
+            "quickDescription": null,
+            "disponibilidad": null,
+            "hostingType": null,
+            "documents": null,
+            "createdAt": "2023-09-17T15:14:03.215Z",
+            "updatedAt": "2023-10-23T13:52:17.222Z",
+            "deletedAt": null,
+            "typePropDetails": {
+                "name": "Departamento",
+                "type": "housing"
+            },
+            "propertyOwner": {
+                "id": "7adf85bb-9b98-47d6-9bbc-4d4a263d5e42",
+                "name": "Ana",
+                "lastname": "García",
+                "email": "erikfilleaudeau@gmail.com",
+                "phone": "2211112223",
+                "dni": 11222335,
+                "street": "3",
+                "number": "112",
+                "intersectionOne": "32",
+                "intersectionTwo": "33",
+                "pais": "Argentina",
+                "provincia": "Buenos Aires",
+                "partido_localidad": "La Plata",
+                "city": "La Plata",
+                "dni_frente": [
+                    "https://res.cloudinary.com/dqllk3gmq/raw/upload/v1688149879/Documentos/w3pfuqlkjcfcettovqtw.png"
+                ],
+                "dni_dorso": [
+                    "https://res.cloudinary.com/dqllk3gmq/raw/upload/v1688149881/Documentos/bt10wipuemp6cfkqdzg6.png"
+                ],
+                "cbu": "1234567890123456789014"
+            }
+        }
+    },
+    {
+        "id": "2ffcb660-5428-11ee-9ef5-1b0a254419f3",
+        "owner": "ad57a8d0-53c5-11ee-9ef5-1b0a254419f3",
+        "property": "60c31cd0-71ab-11ee-b536-3dd0c156838a",
+        "type": "venta",
+        "publicationType": "sinExclusividad",
+        "currency": "USD",
+        "amount": "7500",
+        "expenseTypes": "Gastos compartidos",
+        "expenseCurrency": "USD",
+        "expenseAmount": "0",
+        "finance": true,
+        "disponibilidad": [
+            "15/9/2023"
+        ],
+        "periodo": null,
+        "garantia": null,
+        "authorization": null,
+        "isRealter": false,
+        "status": "Active",
+        "cbu": null,
+        "visits": 221,
+        "createdAt": "2023-09-16T00:30:07.558Z",
+        "updatedAt": "2023-10-23T13:52:17.187Z",
+        "deletedAt": null,
+        "ContractId": null,
+        "propertyDetails": {
+            "id": "60c31cd0-71ab-11ee-b536-3dd0c156838a",
+            "owner": "ad57a8d0-53c5-11ee-9ef5-1b0a254419f3",
+            "title": "Venta de terrenos en Arturo Seguí",
+            "description": "DESCUBRÍ LOS FRESNOS\n\n\nEste desarrollo se encuentra ubicado en la localidad de Arturo Seguí, cerca de City Bell y la reserva de la biósfera Pereyra Iraola. Cuenta con una rápida conexión al casco urbano por su cercanía con el Camino Belgrano.\n\nEl barrio está compuesto por 265 lotes de 250 m2. \n\nLos servicios con los que cuenta son:\n\nElectricidad. Esto incluye corriente para el hogar y luminaria externa.\nCerco perimetral que rodea todo el barrio.\nPortón de ingreso para los residentes.\nCalles mejoradas con tosca y calcáreo.\n\nEl loteo destaca por su tranquilidad y belleza natural, además de su cercanía al centro comercial de City Bell.\n\n\nFINANCIAMOS DE FORMA PERSONALIZADA Y FLEXIBLE. ACCEDE A NUESTRAS FORMAS DE PAGO PRESENTANDO ÚNICAMENTE TU DNI.\nADEMÁS, CONTAMOS CON PLAN D: NUESTRA HERRAMIENTA FINANCIERA CON LA CUAL VOS DECIDÍS CUÁNDO Y CUÁNTO ABONAR.\n\nDejanos tu consulta o efectuá una reserva hoy.\n",
+            "typeProp": 26,
+            "street": "412 bis",
+            "intersectionOne": "179",
+            "intersectionTwo": "",
+            "pais": "Argentina",
+            "province": "Buenos Aires",
+            "state": "La Plata",
+            "city": "La Plata",
+            "barrio": "ARTURO SEGUI",
+            "postalCode": null,
+            "number": "111",
+            "piso": "",
+            "depto": "",
+            "mapUbication": [
+                "-34.89529003942684",
+                "-58.1400019529792"
+            ],
+            "video": [
+                "{\"name\":\"Vídeo sin título ‐ Hecho con Clipchamp.mp4\",\"url\":\"https://res.cloudinary.com/dqllk3gmq/video/upload/v1694823545/FlexyPublication/p7jlllbamlulv5qntxdr.mp4\"}"
+            ],
+            "plane": [
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1694823969/FlexyPublication/ujnecjnwig4ooxsoiqn2.jpg"
+            ],
+            "deed": null,
+            "mainImage": "https://res.cloudinary.com/dqllk3gmq/image/upload/v1694823414/FlexyPublication/dbt3t89gqbyugl1ylspb.jpg",
+            "multimedia": [
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1694823991/FlexyPublication/zvgs5o1eomgsazdxzul2.jpg",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1694823994/FlexyPublication/s0aexcf9pgdt0ao1ldvh.jpg",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1694824005/FlexyPublication/sthmkwnv4hdilynhzw3g.jpg",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1694824009/FlexyPublication/lpvxrafdgvqyydhwsyyb.jpg",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1694824012/FlexyPublication/wpqym5qmgzurdripvao2.jpg"
+            ],
+            "propertyStatus": "A estrenar",
+            "ambient": "0",
+            "bedroom": "0",
+            "bathroom": "0",
+            "beds": null,
+            "travellersCapacity": null,
+            "surface": "250",
+            "mCovered": "0",
+            "antiquity": "1",
+            "generalAttributes": [
+                "Mascotas"
+            ],
+            "typesAmbients": [
+                "Jardín"
+            ],
+            "services": [
+                "Electricidad"
+            ],
+            "facilities": null,
+            "securityItems": null,
+            "quickDescription": null,
+            "disponibilidad": null,
+            "hostingType": null,
+            "documents": null,
+            "createdAt": "2023-09-16T00:30:07.558Z",
+            "updatedAt": "2023-10-23T13:52:17.181Z",
+            "deletedAt": null,
+            "typePropDetails": {
+                "name": "Lote/Terreno",
+                "type": "commercial"
+            },
+            "propertyOwner": {
+                "id": "ad57a8d0-53c5-11ee-9ef5-1b0a254419f3",
+                "name": "Desarrollos",
+                "lastname": "Delsud",
+                "email": "marketingdesarrollosdelsud@gmail.com",
+                "phone": "2215079256",
+                "dni": 36387982,
+                "street": "37",
+                "number": "125",
+                "intersectionOne": "117",
+                "intersectionTwo": "118",
+                "pais": "Argentina",
+                "provincia": "Buenos Aires",
+                "partido_localidad": "La Plata",
+                "city": "La Plata",
+                "dni_frente": [
+                    "https://res.cloudinary.com/dqllk3gmq/raw/upload/v1695065359/Documentos/why3zjkiptpsdhtuxan1.jpg",
+                    null
+                ],
+                "dni_dorso": [
+                    "https://res.cloudinary.com/dqllk3gmq/raw/upload/v1695065367/Documentos/gapirsanqaoiohizkysi.jpg",
+                    null
+                ],
+                "cbu": null
+            }
+        }
+    },
+    {
+        "id": "1bf2b760-5d37-11ee-9566-ef7fa262560d",
+        "owner": "f170d850-5c69-11ee-9566-ef7fa262560d",
+        "property": "60cbf670-71ab-11ee-b536-3dd0c156838a",
+        "type": "alquiler",
+        "publicationType": null,
+        "currency": "ARS",
+        "amount": "120000",
+        "expenseTypes": null,
+        "expenseCurrency": "ARS",
+        "expenseAmount": "14750",
+        "finance": null,
+        "disponibilidad": [
+            "29/9/2023"
+        ],
+        "periodo": "24 Meses",
+        "garantia": [
+            "Trust Fund"
+        ],
+        "authorization": null,
+        "isRealter": false,
+        "status": "Pendiente",
+        "cbu": null,
+        "visits": 0,
+        "createdAt": "2023-09-27T13:09:36.854Z",
+        "updatedAt": "2023-10-23T13:52:17.242Z",
+        "deletedAt": null,
+        "ContractId": null,
+        "propertyDetails": {
+            "id": "60cbf670-71ab-11ee-b536-3dd0c156838a",
+            "owner": "f170d850-5c69-11ee-9566-ef7fa262560d",
+            "title": "asdfasfd",
+            "description": "asdfasfds",
+            "typeProp": 3,
+            "street": "485",
+            "intersectionOne": "12",
+            "intersectionTwo": "13",
+            "pais": "Argentina",
+            "province": "Buenos Aires - GBA Sur",
+            "state": "La Plata",
+            "city": "La Plata",
+            "barrio": "LA PLATA",
+            "postalCode": "1900",
+            "number": "1400",
+            "piso": "12",
+            "depto": "13",
+            "mapUbication": [
+                "-34.93187577080008",
+                "-57.95700073242188"
+            ],
+            "video": [
+                "{\"name\":\"X2Download.app-Un niño llora en su primer día de clases en medio de una entrevista para televisión-(480p).mp4\",\"url\":\"https://res.cloudinary.com/dqllk3gmq/video/upload/v1695820079/FlexyPublication/utavv7did6ppkxhckjh1.mp4\"}"
+            ],
+            "plane": [
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695820077/FlexyPublication/ht37ca5qwuoryauaizoh.webp"
+            ],
+            "deed": null,
+            "mainImage": "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695820030/FlexyPublication/yd2x2nnnfyqh3qjmtvhx.webp",
+            "multimedia": [
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695820033/FlexyPublication/dlyxvm9ciemudgklswmb.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695820034/FlexyPublication/wdmduybkff57j09z3jgb.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695820036/FlexyPublication/fqmz6rhmspjr7dfoiaur.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695820037/FlexyPublication/xqceza6vhmviuw3kzqag.jpg",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695820039/FlexyPublication/xgyokwu3shdu5wm2fsz7.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695820040/FlexyPublication/zwoxjcllesvvorrhmkoz.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695820042/FlexyPublication/nto2jmoxga9s6ckqlfwo.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1695820044/FlexyPublication/ciftdnq29dkao02gvwqj.webp"
+            ],
+            "propertyStatus": "Bueno",
+            "ambient": "2",
+            "bedroom": "2",
+            "bathroom": "2",
+            "beds": null,
+            "travellersCapacity": null,
+            "surface": "2",
+            "mCovered": null,
+            "antiquity": "2",
+            "generalAttributes": [
+                "Radiador",
+                "Estufa a gas",
+                "SUM",
+                "Alfombra"
+            ],
+            "typesAmbients": [
+                "Balcón",
+                "Patio",
+                "Terraza",
+                "Lavadero separado"
+            ],
+            "services": [
+                "Electricidad",
+                "Gas Natural",
+                "Internet",
+                "Seguridad"
+            ],
+            "facilities": null,
+            "securityItems": null,
+            "quickDescription": null,
+            "disponibilidad": null,
+            "hostingType": null,
+            "documents": [
+                "{\"name\":\"1809262724.webp\",\"url\":\"https://res.cloudinary.com/dqllk3gmq/image/upload/v1695820173/FlexyPublication/bkyzwpwequjzyum034pn.webp\"}"
+            ],
+            "createdAt": "2023-09-27T13:09:36.854Z",
+            "updatedAt": "2023-10-23T13:52:17.239Z",
+            "deletedAt": null,
+            "typePropDetails": {
+                "name": "Casa",
+                "type": "housing"
+            },
+            "propertyOwner": {
+                "id": "f170d850-5c69-11ee-9566-ef7fa262560d",
+                "name": "umpa",
+                "lastname": "lumpa",
+                "email": "umpalumpa@email.com",
+                "phone": null,
+                "dni": null,
+                "street": null,
+                "number": null,
+                "intersectionOne": null,
+                "intersectionTwo": null,
+                "pais": null,
+                "provincia": null,
+                "partido_localidad": null,
+                "city": null,
+                "dni_frente": null,
+                "dni_dorso": null,
+                "cbu": null
+            }
+        }
+    },
+    {
+        "id": "f79b59b0-7269-11ee-b1ad-1978909f98a3",
+        "owner": "d7c6e2c4-36b6-11ee-be56-0242ac120002",
+        "property": "f797b030-7269-11ee-b1ad-1978909f98a3",
+        "type": "alquiler",
+        "publicationType": null,
+        "currency": "ARS",
+        "amount": "250000",
+        "expenseTypes": null,
+        "expenseCurrency": "ARS",
+        "expenseAmount": "12300",
+        "finance": null,
+        "disponibilidad": [
+            [
+                "25/10/2023"
+            ]
+        ],
+        "periodo": "24 Meses",
+        "garantia": [
+            "Trust Fund",
+            "Demostracion de ingresos"
+        ],
+        "authorization": [],
+        "isRealter": false,
+        "status": "Pendiente",
+        "cbu": null,
+        "visits": null,
+        "createdAt": "2023-10-24T12:36:34.635Z",
+        "updatedAt": "2023-10-24T13:13:43.288Z",
+        "deletedAt": null,
+        "ContractId": null,
+        "propertyDetails": {
+            "id": "f797b030-7269-11ee-b1ad-1978909f98a3",
+            "owner": "d7c6e2c4-36b6-11ee-be56-0242ac120002",
+            "title": "Casita muy bonita editada",
+            "description": "Casita muy bonita que quiero alquilar editada",
+            "typeProp": 2,
+            "street": "651",
+            "intersectionOne": "12",
+            "intersectionTwo": "13",
+            "pais": "Argentina",
+            "province": "Buenos Aires - GBA Sur",
+            "state": "La Plata",
+            "city": "La Plata",
+            "barrio": "VILLA ELVIRA",
+            "postalCode": "2165",
+            "number": "1234",
+            "piso": "",
+            "depto": "",
+            "mapUbication": [
+                "-34.93938709012668",
+                "-57.91717529296876"
+            ],
+            "video": [
+                "{\"name\":\"video (540p).mp4\",\"url\":\"https://res.cloudinary.com/dqllk3gmq/video/upload/v1698149830/FlexyVideo/xycwdbmxvwsgeehds216.mp4\"}"
+            ],
+            "plane": [
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1698149840/FlexyPublication/ybam85x9y8ixpqaahkew.webp"
+            ],
+            "deed": null,
+            "mainImage": "https://res.cloudinary.com/dqllk3gmq/image/upload/v1698149827/FlexyPublication/re60wet0ibnoekqdzy6c.webp",
+            "multimedia": [
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1698149832/FlexyPublication/z4nmuajdrozzblpukpat.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1698149835/FlexyPublication/mej7wonmm1pjdqloxk8i.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1698149836/FlexyPublication/uchbmnzw17e5wk9xeex1.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1698149838/FlexyPublication/n2kyqavrvhkfumagbah6.webp",
+                "https://res.cloudinary.com/dqllk3gmq/image/upload/v1698149839/FlexyPublication/kgbcyeaxclvzsrmhxic5.webp"
+            ],
+            "propertyStatus": "Excelente",
+            "ambient": "1",
+            "bedroom": "2",
+            "bathroom": "3",
+            "beds": null,
+            "travellersCapacity": null,
+            "surface": "4",
+            "mCovered": null,
+            "antiquity": "5",
+            "generalAttributes": [
+                "Mascotas"
+            ],
+            "typesAmbients": [
+                "Altillo"
+            ],
+            "services": [
+                "Agua Corriente"
+            ],
+            "facilities": null,
+            "securityItems": null,
+            "quickDescription": null,
+            "disponibilidad": null,
+            "hostingType": null,
+            "documents": [
+                "{\"name\":\"deed.png\",\"url\":\"https://res.cloudinary.com/dqllk3gmq/image/upload/v1698150954/FlexyPublication/bdzxhhx1hgqc7np6oqbh.webp\"}"
+            ],
+            "createdAt": "2023-10-24T12:36:34.613Z",
+            "updatedAt": "2023-10-24T13:13:43.284Z",
+            "deletedAt": null,
+            "typePropDetails": {
+                "name": "Departamento",
+                "type": "housing"
+            },
+            "propertyOwner": {
+                "id": "d7c6e2c4-36b6-11ee-be56-0242ac120002",
+                "name": "Erik",
+                "lastname": "Fille",
+                "email": "erikfilledev@gmail.com",
+                "phone": "2211712223",
+                "dni": 11822335,
+                "street": "10",
+                "number": "513",
+                "intersectionOne": "42",
+                "intersectionTwo": "43",
+                "pais": "Argentina",
+                "provincia": "Buenos Aires",
+                "partido_localidad": "La Plata",
+                "city": "La Plata",
+                "dni_frente": null,
+                "dni_dorso": null,
+                "cbu": "1234567890123456789016"
+            }
+        }
+    }
+]

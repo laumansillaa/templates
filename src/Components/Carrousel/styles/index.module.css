@@ -1,0 +1,41 @@
+.contCarrousel {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.slideCarrousel {
+    display: flex;
+    flex-direction: row;
+    padding: 8px 42px;
+    max-width: auto;
+    gap: 32px;
+}
+
+.FlechaLeft {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+}
+
+.FlechaRight {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+}
+
+@media only screen and (max-width: 480px) {
+    .slideCarrousel {
+        padding: 8px 24px;
+    }
+
+    .contCarrousel {
+        overflow-x: scroll;
+    }
+
+    .FlechaLeft, .FlechaRight {
+        display: none;
+    }
+}

@@ -1,0 +1,66 @@
+.containerPropertyViewPage {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contGeneralPropertyView {
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    max-width: 1120px;
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.contTitlePublication {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contLocation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contGeneralSections {
+    display: flex;
+}
+
+.containerCarrousel {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+@media only screen and (max-width: 768px) {
+    .contGeneralPropertyView {
+        width: -webkit-fill-available;
+        padding: 0px 24px;
+    }
+
+    .contLocation {
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 965px) {
+    .contGeneralPropertyView {
+        width: -webkit-fill-available;
+        padding: 0px 50px;
+    }
+}
+
+@media only screen and (min-width: 966px) and (max-width: 1500px) {
+    .contGeneralPropertyView {
+        padding: 0px 50px;
+    }
+
+    .contGeneralSections {
+        gap: 16px;
+    }
+}

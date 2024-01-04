@@ -1,0 +1,57 @@
+.headerHome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../../../public/Home/backgroundHome.webp');
+    background-size: cover;
+    height: 70vh;
+}
+
+.contScrollCards {
+    margin: 0;
+    margin-bottom: 53.8px;
+    display: grid;
+    height: auto;
+    width: 60%;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.contSimilarProps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 360px) {
+    .contScrollCards {
+        display: flex;
+        justify-content: flex-start;
+        overflow: scroll;
+        padding: 4px;
+        width: 100%;
+        height: auto;
+    }
+
+    .contSimilarProps {
+        padding: 64px 12px 0px 12px;
+        gap: 24px;
+    }
+}
+
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+    .contScrollCards {
+        display: flex;
+        justify-content: flex-start;
+        overflow: scroll;
+        padding: 0px 4px;
+        width: 100%;
+    }
+
+    .contSimilarProps {
+        padding: 64px 24px 0px 24px;
+    }
+}

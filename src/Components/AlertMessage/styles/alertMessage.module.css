@@ -1,0 +1,25 @@
+.contText {
+    border: 0.5px solid #e0def7;
+    width: -webkit-fill-available;
+    border-radius: 8px;
+    padding: 7px;
+    margin-top: 16px;
+    display: flex;
+    gap: 8px;
+}
+
+.textError {
+    align-self: center;
+    color: #6c727f;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 19.59999966621399px;
+    white-space: pre-wrap;
+    user-select: none;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 766px) {
+    .textError {
+        font-size: 12px;
+    }
+}

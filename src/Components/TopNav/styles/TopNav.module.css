@@ -1,0 +1,35 @@
+.contTopNav {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 96px;
+    border-bottom: 1px solid #F0EFFB;
+}
+
+.contItemsNavBar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1120px;
+    position: relative;
+}
+
+.contNext {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.logoNavBar {
+    position: absolute;
+    left: 40%;
+}
+
+.text {
+    color: #1A1A1A;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}

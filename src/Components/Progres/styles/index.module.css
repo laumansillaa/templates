@@ -1,0 +1,36 @@
+.contProgresDesktop {
+    display: flex;
+    gap: 16px;
+}
+
+.containerItemProgres {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.circleProgres {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+    width: 28px;
+    border: 2px solid #1a1a1a;
+    background-color: rgb(20, 20, 20, 0.2);
+    color: #1a1a1a;
+    border-radius: 100%;
+}
+
+.circleProgres.active {
+    background-color: #1A1A1A;
+    color: #ffffff
+}
+
+.text {
+    color: #1A1A1A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}

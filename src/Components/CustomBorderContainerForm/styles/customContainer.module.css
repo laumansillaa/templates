@@ -1,0 +1,31 @@
+.customContainer {
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid #e0def7;
+    border-radius: 8px;
+    padding: 35px;
+    width: -webkit-fill-available;
+}
+
+@media only screen and (max-width: 970px) and (min-width: 767px) {
+    .customContainer {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: -webkit-fill-available;
+        height: auto;
+        padding: 24px;
+        margin: 16px 2rem 0 2rem;
+
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 766px) {
+    .customContainer {
+        padding: 0px;
+        margin: 0px 25px;
+        width: -webkit-fill-available;
+        border: 0px;
+
+    }
+}
