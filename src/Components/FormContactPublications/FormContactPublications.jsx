@@ -56,97 +56,97 @@ export default function FormContactPublications() {
 
   return (
     <div className="flex flex-col bg-gray-200 p-7 border border-gray-300 rounded-xl">
-      <div className="flex items-center gap-x-2 border-b border-gray-300 pb-2">
-        <div>
-          <Image
-            src="/Publications/logoCardPublications.svg"
-            alt="logoPublications"
-            width={50}
-            height={50}
-          />
-        </div>
-        <div>
-          <h3 className="font-bold text-sm">Inmobiliaria Bienes raíces</h3>
-          <p className="text-xs text-gray-500">Partner oficial</p>
-        </div>
+    <div className="flex items-center gap-x-2 border-b border-gray-300 pb-2">
+      <div>
+        <Image
+          src="/Publications/logoCardPublications.svg"
+          alt="logoPublications"
+          width={50}
+          height={50}
+        />
       </div>
-      <div className="flex flex-col">
-        {DATA_PUBLICATION_INMO.map((data) => (
-          <div className="flex gap-x-2 pt-3" key={data.key}>
-            <Image src={data.image} alt={data.key} width={20} height={20} />
-            <p className="text-sm">{data.text}</p>
-          </div>
-        ))}
+      <div>
+        <h3 className="font-bold text-sm">Inmobiliaria Bienes raíces</h3>
+        <p className="text-xs text-gray-500">Partner oficial</p>
       </div>
-      {clientIsReady && onlyWidth > 766 && (
-        <form
-          className="flex flex-col gap-y-2 pt-3"
-          onSubmit={handleSubmit(onSubmit)}
-        >
-          <div className="flex gap-x-2">
-            {inputsForm1.map((input, index) => {
-              return (
-                <div className="flex flex-col gap-y-1 w-3/6" key={index}>
-                  <label className="font-bold text-sm">{input.label}</label>
-                  <input
-                    className="px-3 outline-none w-full text-sm h-11 rounded-md border border-[#E0DEF7] placeholder:text-sm"
-                    placeholder={input.placeholder}
-                    {...register(input.name)}
-                  />
-                  {errors[input.name] && (
-                    <span className="text-red-500 text-xs">
-                      {errors[input.name].message}
-                    </span>
-                  )}
-                </div>
-              );
-            })}
-          </div>
-          <div className="flex flex-col gap-y-3">
-            <div className="flex flex-col gap-y-1">
-              <label className="font-bold text-sm">Teléfono</label>
-              <input
-                type="tel"
-                className="px-3 outline-none text-sm rounded-md border border-[#E0DEF7] h-11 placeholder:text-sm"
-                placeholder="Escribí tu teléfono"
-                {...register("telefono", {
-                  required: "Este campo es requerido",
-                  pattern: {
-                    value: /^[0-9]+$/,
-                    message: "Ingresa un número de teléfono válido",
-                  },
-                })}
-                onInput={handlePhoneInput}
-                value={telefono}
-              />
-              {errors.telefono && (
-                <span className="text-red-500 text-xs">
-                  {errors.telefono.message}
-                </span>
-              )}
-            </div>
-            <div className="flex flex-col gap-y-1">
-              <label className="font-bold text-sm">Consulta</label>
-              <textarea
-                className="p-2 outline-none resize-none w-full text-sm placeholder:text-sm h-28 rounded-md border border-[#E0DEF7]"
-                placeholder="Dejanos un mensaje"
-                {...register("consulta", {
-                  required: "Este campo es requerido",
-                })}
-              />
-              {errors.consulta && (
-                <span className="text-red-500 text-xs">
-                  {errors.consulta.message}
-                </span>
-              )}
-            </div>
-          </div>
-          <input
-            type="submit"
-            className="cursor-pointer bg-[#FCA640] w-full text-white h-10 rounded-md"
-          />
-        </form>
-      )}
     </div>
+    <div className="flex flex-col">
+      {DATA_PUBLICATION_INMO.map((data) => (
+        <div className="flex gap-x-2 pt-3" key={data.key}>
+          <Image src={data.image} alt={data.key} width={20} height={20} />
+          <p className="text-sm">{data.text}</p>
+        </div>
+      ))}
+    </div>
+    {clientIsReady && onlyWidth > 766 && (
+      <form
+        className="flex flex-col gap-y-2 pt-3"
+        onSubmit={handleSubmit(onSubmit)}
+      >
+        <div className="flex gap-x-2">
+          {inputsForm1.map((input, index) => {
+            return (
+              <div className="flex flex-col gap-y-1 w-3/6" key={index}>
+                <label className="font-bold text-sm">{input.label}</label>
+                <input
+                  className="px-3 outline-none w-full text-sm h-11 rounded-md border border-[#E0DEF7] placeholder:text-sm !important"
+                  placeholder={input.placeholder}
+                  {...register(input.name)}
+                />
+                {errors[input.name] && (
+                  <span className="text-red-500 text-xs !important">
+                    {errors[input.name].message}
+                  </span>
+                )}
+              </div>
+            );
+          })}
+        </div>
+        <div className="flex flex-col gap-y-3">
+          <div className="flex flex-col gap-y-1">
+            <label className="font-bold text-sm">Teléfono</label>
+            <input
+              type="tel"
+              className="px-3 outline-none text-sm rounded-md border border-[#E0DEF7] h-11 placeholder:text-sm !important"
+              placeholder="Escribí tu teléfono"
+              {...register("telefono", {
+                required: "Este campo es requerido",
+                pattern: {
+                  value: /^[0-9]+$/,
+                  message: "Ingresa un número de teléfono válido",
+                },
+              })}
+              onInput={handlePhoneInput}
+              value={telefono}
+            />
+            {errors.telefono && (
+              <span className="text-red-500 text-xs !important">
+                {errors.telefono.message}
+              </span>
+            )}
+          </div>
+          <div className="flex flex-col gap-y-1">
+            <label className="font-bold text-sm">Consulta</label>
+            <textarea
+              className="p-2 outline-none resize-none w-full text-sm placeholder:text-sm h-28 rounded-md border border-[#E0DEF7] !important"
+              placeholder="Dejanos un mensaje"
+              {...register("consulta", {
+                required: "Este campo es requerido",
+              })}
+            />
+            {errors.consulta && (
+              <span className="text-red-500 text-xs !important">
+                {errors.consulta.message}
+              </span>
+            )}
+          </div>
+        </div>
+        <input
+          type="submit"
+          className="cursor-pointer bg-[#FCA640] w-full text-white h-10 rounded-md !important"
+        />
+      </form>
+    )}
+  </div>
   );
 }
