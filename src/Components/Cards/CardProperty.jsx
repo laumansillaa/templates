@@ -84,8 +84,8 @@ export default function CardProperty({ property }) {
               className="w-auto h-auto"
             />
           </div>
-          <div className="flex justify-between w-[80%] p-3">
-            <div className="space-x-2 flex items-center">
+          <div className={style.contAllAtributtes}>
+            <div className={style.contAtributte}>
               <Image
                 src="/CardProperty/beedrom.svg"
                 alt="beedrom"
@@ -107,7 +107,7 @@ export default function CardProperty({ property }) {
                 {property?.propertyDetails.bathroom}
               </div>
             </div>
-            <div className="space-x-2 flex items-center">
+            <div className={style.contAtributte}>
               <Image
                 src="/CardProperty/surface.svg"
                 alt="surface"
