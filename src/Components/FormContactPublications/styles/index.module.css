@@ -1,0 +1,14 @@
+.contGeneralForm {
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.08);
+    padding: 1.7rem !important;
+    border-radius: 8px;
+}
+
+.contForm {
+    display: flex;
+    flex-direction: column;
+    gap: 16px !important;
+    padding-top: 0.75rem !important;
+}
