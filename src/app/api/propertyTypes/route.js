@@ -6,9 +6,9 @@ export async function GET(request) {
   try {
     const urlTest = `http://localhost:3001/api/propertyTypes`;
 
-    // const urlProd = `https://test.flexy.com.ar/api/theme/list/${id}`
+    const urlProd = `https://test.flexy.com.ar/api/propertyTypes`
 
-    const response = await fetch(urlTest, {
+    const response = await fetch(urlProd, {
       method: "GET",
       headers: {},
     });

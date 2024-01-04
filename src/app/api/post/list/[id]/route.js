@@ -4,11 +4,11 @@ export async function GET (request, Response) {
   try {
 
     const id = request.url.split("list/")[1]
-    const urlTest = `http://localhost:3001/api/theme/list/${id}`
+    // const urlTest = `http://localhost:3001/api/theme/list/${id}`
     
     const urlProd = `https://test.flexy.com.ar/api/theme/list/${id}`
 
-    const response = await fetch(urlTest, {
+    const response = await fetch(urlProd, {
       method: "GET",
       headers: {
       },
